@@ -18,6 +18,7 @@ sudo cp squashfs-root/bin/icemulti /usr/local/bin
 git clone https://github.com/cfelton/rhea.git
 cd rhea/
 sudo python setup.py develop
+cd examples/build
 python ex_icestick.py
 python ex_catboard.py
 ls -la iceriver/
