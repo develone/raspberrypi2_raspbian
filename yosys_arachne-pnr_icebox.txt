@@ -1,0 +1,39 @@
+10/16/15
+Requires squashfs-tools
+Provides the tools to support the cat board.
+
+sudo unsquashfs gtkwave_iverilog_python3_yosys_bcm2735_arachne-pnr_icebox_usrlocal091715
+sudo cp squashfs-root/bin/yosys* /usr/local/bin
+sudo cp squashfs-root/bin/arachne-pnr /usr/local/bin
+sudo cp squashfs-root/bin/icebox* /usr/local/bin
+
+sudo cp -R squashfs-root/share/arachne-pnr/ /usr/local/share/
+sudo cp -R squashfs-root/share/icebox/ /usr/local/share/
+sudo cp -R squashfs-root/share/yosys /usr/local/share/
+
+sudo cp squashfs-root/bin/icepack /usr/local/bin
+sudo cp squashfs-root/bin/iceprog /usr/local/bin
+sudo cp squashfs-root/bin/icemulti /usr/local/bin
+
+git clone https://github.com/cfelton/rhea.git
+cd rhea/
+sudo python setup.py develop
+python ex_icestick.py
+python ex_catboard.py
+ls -la iceriver/
+total 1404
+drwxr-xr-x 2 vidal vidal   4096 Oct 16 17:57 .
+drwxr-xr-x 3 vidal vidal   4096 Oct 16 17:57 ..
+-rw-r--r-- 1 vidal vidal  71079 Oct 16 17:57 build_iceriver.log
+-rw-r--r-- 1 vidal vidal 135096 Oct 16 17:56 catboard.bin
+-rw-r--r-- 1 vidal vidal   1092 Oct 16 17:56 catboard.blif
+-rw-r--r-- 1 vidal vidal    110 Oct 16 17:56 catboard.pcf
+-rw-r--r-- 1 vidal vidal 948151 Oct 16 17:56 catboard.txt
+-rw-r--r-- 1 vidal vidal    615 Oct 16 17:56 catboard.v
+-rw-r--r-- 1 vidal vidal    705 Oct 16 17:56 catboard.ys
+-rw-r--r-- 1 vidal vidal  32216 Oct 16 17:57 icestick.bin
+-rw-r--r-- 1 vidal vidal  15741 Oct 16 17:57 icestick.blif
+-rw-r--r-- 1 vidal vidal    128 Oct 16 17:57 icestick.pcf
+-rw-r--r-- 1 vidal vidal 189936 Oct 16 17:57 icestick.txt
+-rw-r--r-- 1 vidal vidal    623 Oct 16 17:57 icestick.v
+-rw-r--r-- 1 vidal vidal    753 Oct 16 17:57 icestick.ys 
