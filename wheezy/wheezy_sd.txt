@@ -1,0 +1,11 @@
+gzip -dc /home/vidal/wkg/pi/2015-05-15-raspbian-wheezy.zip | pv | dd bs=4M of=/dev/sdb
+3.05GB 0:03:16 [15.9MB/s] [  <=>                                               ]
+0+66741 records in
+0+66741 records out
+3276800000 bytes (3.3 GB) copied, 347.834 s, 9.4 MB/s
+
+gparted /dev/sdb
+umount /dev/sdb2
+resize 3065 to 7540 on 8GB SD 
+
+cp ../yocto/gtkwave_iverilog_python3_yosys_bcm2735_arachne-pnr_icebox_usrlocal091715 /media/13d368bf-6dbf-4751-8ba1-88bed06bef77/home/pi

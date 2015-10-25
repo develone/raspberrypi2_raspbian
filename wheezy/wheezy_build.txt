@@ -1,0 +1,918 @@
+passwd
+dpkg --get-selections > software0.log
+pi@raspberrypi ~ $ sudo apt-get gawk libreadline-dev libffi-dev tcl tcl-dev squashfs-tools
+
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  liblzo2-2 libreadline6-dev libsigsegv2 libtinfo-dev tcl8.5-dev
+Suggested packages:
+
+  gawk-doc tcl-doc tcl8.5-doc
+The following NEW packages will be installed:
+  gawk libffi-dev liblzo2-2 libreadline-dev libreadline6-dev libsigsegv2
+  libtinfo-dev squashfs-tools tcl tcl-dev tcl8.5-dev
+0 upgraded, 11 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2,540 kB of archives.
+After this operation, 6,959 kB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+
+dpkg --get-selections > software1.log
+ 
+ sudo apt-get install tree
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  tree
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 43.4 kB of archives.
+After this operation, 108 kB of additional disk space will be used.
+Get:1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main tree armhf 1.6.0-1 [43.4 kB]
+Fetched 43.4 kB in 0s (46.1 kB/s)
+Selecting previously unselected package tree.
+(Reading database ... 78147 files and directories currently installed.)
+Unpacking tree (from .../tree_1.6.0-1_armhf.deb) ...
+Processing triggers for man-db ...
+Setting up tree (1.6.0-1) ...
+sudo apt-get install mercurial
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  mercurial-common
+Suggested packages:
+  qct vim emacs kdiff3 kdiff3-qt kompare meld xxdiff tkcvs mgdiff
+  python-mysqldb python-pygments python-openssl
+The following NEW packages will be installed:
+  mercurial mercurial-common
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 2,404 kB of archives.
+After this operation, 8,022 kB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+sudo apt-get install libreoffice
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  ca-certificates-java default-jre default-jre-headless fonts-liberation
+  fonts-lyx fonts-opensymbol fonts-sil-gentium fonts-sil-gentium-basic
+  fonts-stix icedtea-6-jre-cacao icedtea-6-jre-jamvm icedtea-netx
+  icedtea-netx-common libatk-wrapper-java libatk-wrapper-java-jni
+  libboost-date-time1.49.0 libcdr-0.0-0 libclucene-contribs1 libclucene-core1
+  libcmis-0.2-2 libcolamd2.7.1 libexttextcat-data libexttextcat0
+  libhsqldb-java libhyphen0 libjaxp1.3-java libmhash2 libmythes-1.2-0
+  libneon27-gnutls libraptor2-0 librasqal3 librdf0 libreoffice-base
+  libreoffice-base-core libreoffice-calc libreoffice-common libreoffice-core
+  libreoffice-draw libreoffice-emailmerge libreoffice-filter-mobiledev
+  libreoffice-impress libreoffice-java-common libreoffice-math
+  libreoffice-report-builder-bin libreoffice-style-galaxy libreoffice-writer
+  libservlet2.5-java libvisio-0.0-0 libwpd-0.9-9 libwpg-0.2-2 libwps-0.2-2
+  libxalan2-java libxerces2-java libxml-commons-external-java
+  libxml-commons-resolver1.1-java libyajl2 lp-solve openjdk-6-jre
+  openjdk-6-jre-headless openjdk-6-jre-lib python-uno ttf-dejavu
+  ttf-dejavu-extra ttf-liberation ttf-sil-gentium-basic tzdata-java uno-libs3
+  ure xfonts-mathml
+Suggested packages:
+  libhsqldb-java-doc libhsqldb-java-gcj libjaxp1.3-java-gcj raptor2-utils
+  rasqal-utils librdf-storage-postgresql librdf-storage-mysql
+  librdf-storage-sqlite redland-utils hunspell-dictionary myspell-dictionary
+  libreoffice-help-3.6 libreoffice-l10n-3.6 unixodbc libsane
+  hyphen-hyphenation-patterns mythes-thesaurus libreoffice-grammarcheck
+  libreoffice-gnome libreoffice-kde iceweasel firefox icedove thunderbird
+  iceape-browser mozilla-browser openclipart-libreoffice pstoedit imagemagick
+  graphicsmagick-imagemagick-compat gstreamer0.10-plugins-good
+  gstreamer0.10-plugins-ugly gstreamer0.10-plugins-bad gstreamer0.10-ffmpeg
+  libreoffice-officebean libmyodbc odbc-postgresql libsqliteodbc tdsodbc
+  mdbtools libmysql-java libpg-java libjtds-java libreoffice-gcj
+  libreoffice-report-builder libreoffice-style-hicontrast
+  libreoffice-style-tango libreoffice-style-crystal libreoffice-style-oxygen
+  libxalan2-java-doc libbsf-java libxsltc-java libxerces2-java-doc
+  libxerces2-java-gcj libxml-commons-resolver1.1-java-doc icedtea-plugin
+  sun-java6-fonts fonts-ipafont-gothic fonts-ipafont-mincho ttf-wqy-microhei
+  ttf-wqy-zenhei ttf-indic-fonts java5-runtime
+The following NEW packages will be installed:
+  ca-certificates-java default-jre default-jre-headless fonts-liberation
+  fonts-lyx fonts-opensymbol fonts-sil-gentium fonts-sil-gentium-basic
+  fonts-stix icedtea-6-jre-cacao icedtea-6-jre-jamvm icedtea-netx
+  icedtea-netx-common libatk-wrapper-java libatk-wrapper-java-jni
+  libboost-date-time1.49.0 libcdr-0.0-0 libclucene-contribs1 libclucene-core1
+  libcmis-0.2-2 libcolamd2.7.1 libexttextcat-data libexttextcat0
+  libhsqldb-java libhyphen0 libjaxp1.3-java libmhash2 libmythes-1.2-0
+  libneon27-gnutls libraptor2-0 librasqal3 librdf0 libreoffice
+  libreoffice-base libreoffice-base-core libreoffice-calc libreoffice-common
+  libreoffice-core libreoffice-draw libreoffice-emailmerge
+  libreoffice-filter-mobiledev libreoffice-impress libreoffice-java-common
+  libreoffice-math libreoffice-report-builder-bin libreoffice-style-galaxy
+  libreoffice-writer libservlet2.5-java libvisio-0.0-0 libwpd-0.9-9
+  libwpg-0.2-2 libwps-0.2-2 libxalan2-java libxerces2-
+
+  libxml-commons-external-java libxml-commons-resolver1.1-java libyajl2
+  lp-solve openjdk-6-jre openjdk-6-jre-headless openjdk-6-jre-lib python-uno
+  ttf-dejavu ttf-dejavu-extra ttf-liberation ttf-sil-gentium-basic tzdata-java
+  uno-libs3 ure xfonts-mathml
+0 upgraded, 70 newly installed, 0 to remove and 0 not upgraded.
+Need to get 127 MB of archives.
+After this operation, 297 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+ sudo apt-get install python-pip
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  python-pkg-resources python-setuptools python2.6 python2.6-minimal
+Suggested packages:
+  python-distribute python-distribute-doc python2.6-doc binfmt-support
+Recommended packages:
+  python-dev-all
+The following NEW packages will be installed:
+  python-pip python-pkg-resources python-setuptools python2.6
+  python2.6-minimal
+0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4,475 kB of archives.
+After this operation, 14.5 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+
+sudo apt-get install gedit geany
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  geany-common gedit-common gir1.2-atk-1.0 gir1.2-clutter-1.0 gir1.2-cogl-1.0
+  gir1.2-coglpango-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-gstreamer-0.10 gir1.2-gtk-3.0 gir1.2-gtksource-3.0 gir1.2-json-1.0
+  gir1.2-pango-1.0 gir1.2-peas-1.0 gnome-js-common gnome-user-guide
+  libclutter-1.0-0 libclutter-1.0-common libcogl-common libcogl-pango0
+  libcogl9 libgtksourceview-3.0-0 libgtksourceview-3.0-common
+  libjson-glib-1.0-0 libpeas-1.0-0 libpeas-common libseed-gtk3-0 libyelp0
+  python-cairo python-gi-cairo ttf-dejavu ttf-dejavu-extra yelp yelp-xsl
+Suggested packages:
+  doc-base gedit-plugins
+The following NEW packages will be installed:
+  geany geany-common gedit gedit-common gir1.2-atk-1.0 gir1.2-clutter-1.0
+  gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-gstreamer-0.10 gir1.2-gtk-3.0 gir1.2-gtksource-3.0 gir1.2-json-1.0
+  gir1.2-pango-1.0 gir1.2-peas-1.0 gnome-js-common gnome-user-guide
+  libclutter-1.0-0 libclutter-1.0-common libcogl-common libcogl-pango0
+  libcogl9 libgtksourceview-3.0-0 libgtksourceview-3.0-common
+  libjson-glib-1.0-0 libpeas-1.0-0 libpeas-common libseed-gtk3-0 libyelp0
+  python-cairo python-gi-cairo ttf-dejavu ttf-dejavu-extra yelp yelp-xsl
+0 upgraded, 36 newly installed, 0 to remove and 0 not upgraded.
+Need to get 21.3 MB/23.1 MB of archives.
+After this operation, 76.7 MB of additional disk space will be used.
+Do you want to continue [Y/n]?
+115 pkgs
+ 
+sudo apt-get install python-sphinx texlive biblatex texlive-fonts-recommended
+Fails 
+sudo apt-get update 
+sudo apt-get install diffuse vlc evince biblatex automake autotools-dev fonts-liberation
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  at-spi2-core autoconf biber etoolbox evince-common latex-beamer latex-xcolor
+  liba52-0.7.4 libavformat53 libbtparse1 libcddb2 libclass-load-perl
+  libdata-compare-perl libdata-dump-perl libdata-optlist-perl
+  libdate-simple-perl libdirac-decoder0 libdjvulibre-text libdjvulibre21
+  libdvbpsi7 libebml3 libencode-locale-perl libevdocument3-4 libevview3-3
+  libfile-find-rule-perl libfile-listing-perl libfile-slurp-perl
+  libfile-slurp-unicode-perl libfont-afm-perl libgail-3-0 libgraphite3
+  libgxps2 libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libio-socket-ip-perl libio-socket-ssl-perl
+  libipc-run3-perl libipc-shareable-perl libiso9660-8 libkpathsea6
+  liblircclient0 liblist-allutils-perl liblist-moreutils-perl
+  liblog-dispatch-perl liblog-log4perl-perl liblua5.1-0 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libmatroska5
+  libmodule-implementation-perl libmodule-runtime-perl libmpcdec6 libmpeg2-4
+  libmtp-common libmtp-runtime libmtp9 libnautilus-extension1a
+  libnet-http-perl libnet-libidn-perl libnet-ssleay-perl
+  libnumber-compare-perl libpackage-deprecationmanager-perl
+  libpackage-stash-perl libpackage-stash-xs-perl libparams-classify-perl
+  libparams-util-perl libparams-validate-perl libpoppler-glib8 libpostproc52
+  libptexenc1 libreadonly-perl libreadonly-xs-perl libregexp-common-perl
+  libresid-builder0c2a libsidplay2 libsocket-perl libspectre1 libspeexdsp1
+  libsub-install-perl libt1-5 libtar0 libtext-bibtex-perl libtext-glob-perl
+  libtry-tiny-perl libtwolame0 libunicode-collate-perl libupnp6 liburi-perl
+  libva-x11-1 libvcdinfo0 libvlc5 libvlccore5 libwww-perl
+  libwww-robotrules-perl libxcb-composite0 libxcb-keysyms1 libxcb-randr0
+  libxcb-xv0 libxml-libxml-perl libxml-libxml-simple-perl libxml-libxslt-perl
+  libxml-namespacesupport-perl libxml-parser-perl libxml-sax-base-perl
+  libxml-sax-expat-perl libxml-sax-perl libxml-writer-string-perl
+  libzvbi-common libzvbi0 lmodern logreq luatex m4 pgf preview-latex-style
+  prosper ps2eps python-gobject-2 python-gtk2 ruby tex-common texlive-base
+  texlive-binaries texlive-common texlive-doc-base texlive-extra-utils
+  texlive-font-utils texlive-generic-recommended texlive-latex-base
+  texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-luatex
+  texlive-pictures texlive-pictures-doc texlive-pstricks texlive-pstricks-doc
+  vlc-data vlc-nox vlc-plugin-notify vlc-plugin-pulse
+Suggested packages:
+  autoconf2.13 autoconf-archive gnu-standards autoconf-doc libtool gettext
+  unrar nautilus libscalar-properties-perl lirc libdbd-csv-perl
+  libxml-dom-perl libcrypt-ssleay-perl libscalar-number-perl libspectre1-dbg
+  libauthen-ntlm-perl python-gobject-2-dbg python-gtk2-doc ri ruby-dev
+  debhelper perl-tk purifyeps chktex latexmk dvipng xindy dvidvi fragmaster
+  lacheck latexdiff psutils t1utils libfile-which-perl dot2tex videolan-doc
+The following NEW packages will be installed:
+  at-spi2-core autoconf automake autotools-dev biber biblatex diffuse etoolbox
+  evince evince-common fonts-liberation latex-beamer latex-xcolor liba52-0.7.4
+  libavformat53 libbtparse1 libcddb2 libclass-load-perl libdata-compare-perl
+  libdata-dump-perl libdata-optlist-perl libdate-simple-perl libdirac-decoder0
+  libdjvulibre-text libdjvulibre21 libdvbpsi7 libebml3 libencode-locale-perl
+  libevdocument3-4 libevview3-3 libfile-find-rule-perl libfile-listing-perl
+  libfile-slurp-perl libfile-slurp-unicode-perl libfont-afm-perl libgail-3-0
+  libgraphite3 libgxps2 libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
+  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libio-socket-ip-perl
+  libio-socket-ssl-perl libipc-run3-perl libipc-shareable-perl libiso9660-8
+  libkpathsea6 liblircclient0 liblist-allutils-perl liblist-moreutils-perl
+  liblog-dispatch-perl liblog-log4perl-perl liblua5.1-0 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libmatroska5
+  libmodule-implementation-perl libmodule-runtime-perl libmpcdec6 libmpeg2-4
+  libmtp-common libmtp-runtime libmtp9 libnautilus-extension1a
+  libnet-http-perl libnet-libidn-perl libnet-ssleay-perl
+  libnumber-compare-perl libpackage-deprecationmanager-perl
+  libpackage-stash-perl libpackage-stash-xs-perl libparams-classify-perl
+  libparams-util-perl libparams-validate-perl libpoppler-glib8 libpostproc52
+  libptexenc1 libreadonly-perl libreadonly-xs-perl libregexp-common-perl
+  libresid-builder0c2a libsidplay2 libsocket-perl libspectre1 libspeexdsp1
+  libsub-install-perl libt1-5 libtar0 libtext-bibtex-perl libtext-glob-perl
+  libtry-tiny-perl libtwolame0 libunicode-collate-perl libupnp6 liburi-perl
+  libva-x11-1 libvcdinfo0 libvlc5 libvlccore5 libwww-perl
+  libwww-robotrules-perl libxcb-composite0 libxcb-keysyms1 libxcb-randr0
+  libxcb-xv0 libxml-libxml-perl libxml-libxml-simple-perl libxml-libxslt-perl
+  libxml-namespacesupport-perl libxml-parser-perl libxml-sax-base-perl
+  libxml-sax-expat-perl libxml-sax-perl libxml-writer-string-perl
+  libzvbi-common libzvbi0 lmodern logreq luatex m4 pgf preview-latex-style
+  prosper ps2eps python-gobject-2 python-gtk2 ruby tex-common texlive-base
+  texlive-binaries texlive-common texlive-doc-base texlive-extra-utils
+  texlive-font-utils texlive-generic-recommended texlive-latex-base
+  texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-luatex
+  texlive-pictures texlive-pictures-doc texlive-pstricks texlive-pstricks-doc
+  vlc vlc-data vlc-nox vlc-plugin-notify vlc-plugin-pulse
+0 upgraded, 159 newly installed, 0 to remove and 40 not upgraded.
+Need to get 23.8 MB/634 MB of archives.
+After this operation, 997 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+
+
+sudo apt-get install python-sphinx texlive biblatex texlive-fonts-recommended
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  biber docutils-common docutils-doc etoolbox javascript-common latex-beamer
+  latex-xcolor libbtparse1 libclass-load-perl libdata-compare-perl
+  libdata-dump-perl libdata-optlist-perl libdate-simple-perl
+  libencode-locale-perl libfile-find-rule-perl libfile-listing-perl
+  libfile-slurp-perl libfile-slurp-unicode-perl libfont-afm-perl libgraphite3
+  libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libio-socket-ip-perl libio-socket-ssl-perl
+  libipc-run3-perl libipc-shareable-perl libjs-jquery libjs-sphinxdoc
+  libjs-underscore libkpathsea6 liblist-allutils-perl liblist-moreutils-perl
+  liblog-dispatch-perl liblog-log4perl-perl liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libmodule-implementation-perl
+  libmodule-runtime-perl libnet-http-perl libnet-libidn-perl
+  libnet-ssleay-perl libnumber-compare-perl libpackage-deprecationmanager-perl
+  libpackage-stash-perl libpackage-stash-xs-perl libparams-classify-perl
+  libparams-util-perl libparams-validate-perl libptexenc1 libreadonly-perl
+  libreadonly-xs-perl libregexp-common-perl libsocket-perl libsub-install-perl
+  libtext-bibtex-perl libtext-glob-perl libtry-tiny-perl
+  libunicode-collate-perl liburi-perl libwww-perl libwww-robotrules-perl
+  libxml-libxml-perl libxml-libxml-simple-perl libxml-libxslt-perl
+  libxml-namespacesupport-perl libxml-parser-perl libxml-sax-base-perl
+  libxml-sax-expat-perl libxml-sax-perl libxml-writer-string-perl lmodern
+  logreq luatex pgf preview-latex-style prosper ps2eps python-chardet
+  python-docutils python-imaging python-jinja2 python-lxml python-markupsafe
+  python-pygments python-roman ruby sphinx-common sphinx-doc tex-common
+  tex-gyre texlive-base texlive-binaries texlive-common texlive-doc-base
+  texlive-extra-utils texlive-font-utils texlive-fonts-recommended-doc
+  texlive-generic-recommended texlive-latex-base texlive-latex-base-doc
+  texlive-latex-extra texlive-latex-extra-doc texlive-latex-recommended
+  texlive-latex-recommended-doc texlive-luatex texlive-pictures
+  texlive-pictures-doc texlive-pstricks texlive-pstricks-doc tipa ttf-marvosym
+  wwwconfig-common
+Suggested packages:
+  apache2 httpd libscalar-properties-perl libdbd-csv-perl libxml-dom-perl
+  libcrypt-ssleay-perl libscalar-number-perl libauthen-ntlm-perl
+  texlive-lang-french fonts-linuxlibertine ttf-linux-libertine
+  python-imaging-doc python-imaging-dbg python-jinja2-doc python-lxml-dbg
+  ttf-bitstream-vera jsmath libjs-mathjax ri ruby-dev debhelper texlive-doc-en
+  perl-tk purifyeps chktex latexmk dvipng xindy dvidvi fragmaster lacheck
+  latexdiff psutils t1utils libfile-which-perl dot2tex mysql-client
+  postgresql-client
+The following NEW packages will be installed:
+  biber biblatex docutils-common docutils-doc etoolbox javascript-common
+  latex-beamer latex-xcolor libbtparse1 libclass-load-perl
+  libdata-compare-perl libdata-dump-perl libdata-optlist-perl
+  libdate-simple-perl libencode-locale-perl libfile-find-rule-perl
+  libfile-listing-perl libfile-slurp-perl libfile-slurp-unicode-perl
+  libfont-afm-perl libgraphite3 libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
+  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libio-socket-ip-perl
+  libio-socket-ssl-perl libipc-run3-perl libipc-shareable-perl libjs-jquery
+  libjs-sphinxdoc libjs-underscore libkpathsea6 liblist-allutils-perl
+  liblist-moreutils-perl liblog-dispatch-perl liblog-log4perl-perl
+  liblwp-mediatypes-perl liblwp-protocol-https-perl libmailtools-perl
+  libmodule-implementation-perl libmodule-runtime-perl libnet-http-perl
+  libnet-libidn-perl libnet-ssleay-perl libnumber-compare-perl
+  libpackage-deprecationmanager-perl libpackage-stash-perl
+  libpackage-stash-xs-perl libparams-classify-perl libparams-util-perl
+  libparams-validate-perl libptexenc1 libreadonly-perl libreadonly-xs-perl
+  libregexp-common-perl libsocket-perl libsub-install-perl libtext-bibtex-perl
+  libtext-glob-perl libtry-tiny-perl libunicode-collate-perl liburi-perl
+  libwww-perl libwww-robotrules-perl libxml-libxml-perl
+  libxml-libxml-simple-perl libxml-libxslt-perl libxml-namespacesupport-perl
+  libxml-parser-perl libxml-sax-base-perl libxml-sax-expat-perl
+  libxml-sax-perl libxml-writer-string-perl lmodern logreq luatex pgf
+  preview-latex-style prosper ps2eps python-chardet python-docutils
+  python-imaging python-jinja2 python-lxml python-markupsafe python-pygments
+  python-roman python-sphinx ruby sphinx-common sphinx-doc tex-common tex-gyre
+  texlive texlive-base texlive-binaries texlive-common texlive-doc-base
+  texlive-extra-utils texlive-font-utils texlive-fonts-recommended
+  texlive-fonts-recommended-doc texlive-generic-recommended texlive-latex-base
+  texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-luatex
+  texlive-pictures texlive-pictures-doc texlive-pstricks texlive-pstricks-doc
+  tipa ttf-marvosym wwwconfig-common
+0 upgraded, 125 newly installed, 0 to remove and 0 not upgraded.
+Need to get 644 MB of archives.
+After this operation, 995 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+
+dpkg --get-selections > software3.log
+sudo apt-get install mercurial
+
+sudo apt-get install libjpeg62:armhf
+
+sudo easy_install -U distribute
+sudo apt-get install iceweasel
+301 pkgs
+dpkg --get-selections > software4.log
+1094 
+sudo apt-get install libjpeg62-dev zlib1g-dev libfreetype6-dev liblcms1-dev ffmpeg
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+zlib1g-dev is already the newest version.
+libfreetype6-dev is already the newest version.
+The following extra packages will be installed:
+  libav-tools libavdevice53 libavfilter2 libavfilter3 libavresample1 liblcms1
+  libopencv-core2.3 libopencv-imgproc2.3
+Suggested packages:
+  frei0r-plugins liblcms-utils
+The following NEW packages will be installed:
+  ffmpeg libav-tools libavdevice53 libavfilter2 libavfilter3 libavresample1
+  libjpeg62-dev liblcms1-dev libopencv-core2.3 libopencv-imgproc2.3
+The following packages will be upgraded:
+  liblcms1
+1 upgraded, 10 newly installed, 0 to remove and 39 not upgraded.
+Need to get 5,643 kB of archives.
+After this operation, 14.1 MB of additional disk space will be used.
+Do you want to continue [Y/n]?
+
+dpkg --get-selections > software5.log
+
+sudo apt-get install scrot python-dev flex bison gperf
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  giblib1 libbison-dev libexpat1 libexpat1-dev libssl-dev libssl-doc
+  libssl1.0.0 python2.7-dev
+Suggested packages:
+  bison-doc
+The following NEW packages will be installed:
+  bison flex giblib1 gperf libbison-dev libexpat1-dev libssl-dev libssl-doc
+  python-dev python2.7-dev scrot
+The following packages will be upgraded:
+  libexpat1 libssl1.0.0
+2 upgraded, 11 newly installed, 0 to remove and 37 not upgraded.
+Need to get 34.2 MB of archives.
+After this operation, 45.4 MB of additional disk space will be used.
+Do you want to continue [Y/n]? 
+
+dpkg --get-selections > software6.log
+matplotlib-1.4.3
+sudo pip install matplotlib 
+sudo pip install matplotlib
+Downloading/unpacking matplotlib
+  Downloading matplotlib-1.4.3.tar.gz (50.4Mb): 50.4Mb downloaded
+  Running setup.py egg_info for package matplotlib
+    ============================================================================
+    Edit setup.cfg to change the build options
+    
+    BUILDING MATPLOTLIB
+                matplotlib: yes [1.4.3]
+                    python: yes [2.7.3 (default, Mar 18 2014, 05:13:23)  [GCC
+                            4.6.3]]
+                  platform: yes [linux2]
+    
+    REQUIRED DEPENDENCIES AND EXTENSIONS
+                     numpy: yes [version 1.6.2]
+                       six: yes [six was not found.pip will attempt to install
+                            it after matplotlib.]
+                  dateutil: yes [dateutil was not found. It is required for date
+                            axis support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                      pytz: yes [pytz was not found. pip will attempt to install
+                            it after matplotlib.]
+                   tornado: yes [tornado was not found. It is required for the
+                            WebAgg backend. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                 pyparsing: yes [pyparsing was not found. It is required for
+                            mathtext support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                     pycxx: yes [Couldn't import.  Using local copy.]
+                    libagg: yes [pkg-config information for 'libagg' could not
+                            be found. Using local copy.]
+                  freetype: yes [version 2.5.2]
+                       png: yes [version 1.2.49]
+                     qhull: yes [pkg-config information for 'qhull' could not be
+                            found. Using local copy.]
+    
+    OPTIONAL SUBPACKAGES
+               sample_data: yes [installing]
+                  toolkits: yes [installing]
+                     tests: yes [nose 0.11.1 or later is required to run the
+                            matplotlib test suite.  pip/easy_install may attempt
+                            to install it after matplotlib. / mock is required
+                            to run the matplotlib test suite.  pip/easy_install
+                            may attempt to install it after matplotlib.]
+            toolkits_tests: yes [nose 0.11.1 or later is required to run the
+                            matplotlib test suite.  pip/easy_install may attempt
+                            to install it after matplotlib. / mock is required
+                            to run the matplotlib test suite.  pip/easy_install
+                            may attempt to install it after matplotlib.]
+    
+    OPTIONAL BACKEND EXTENSIONS
+                    macosx: no  [Mac OS-X only]
+                    qt5agg: no  [PyQt5 not found]
+                    qt4agg: no  [PyQt4 not found]
+                    pyside: no  [PySide not found]
+X11 connection rejected because of wrong authentication.
+    
+    ** (-c:25152): WARNING **: Could not open X display
+X11 connection rejected because of wrong authentication.
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+                   gtk3agg: yes [installing, version 3.2.10]
+X11 connection rejected because of wrong authentication.
+    
+    ** (-c:25168): WARNING **: Could not open X display
+X11 connection rejected because of wrong authentication.
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+X11 connection rejected because of wrong authentication.
+    /usr/lib/python2.7/dist-packages/gtk-2.0/gtk/__init__.py:57: GtkWarning: could not open display
+      warnings.warn(str(e), _gtk.Warning)
+X11 connection rejected because of wrong authentication.
+                 gtk3cairo: yes [installing, version 3.2.10]
+                    gtkagg: no  [The C/C++ header for gtk (gtk/gtk.h) could not
+                            be found.  You may need to install the development
+                            package.]
+                     tkagg: no  [The C/C++ header for Tk (tk.h) could not be
+                            found.  You may need to install the development
+                            package.]
+                     wxagg: no  [requires wxPython]
+                       gtk: no  [The C/C++ header for gtk (gtk/gtk.h) could not
+                            be found.  You may need to install the development
+                            package.]
+                       agg: yes [installing]
+                     cairo: yes [installing, pycairo version 1.8.8]
+                 windowing: no  [Microsoft Windows only]
+    
+    OPTIONAL LATEX DEPENDENCIES
+                    dvipng: no
+               ghostscript: yes [version 9.05]
+                     latex: yes [version 3.1415926]
+                   pdftops: yes [version 0.18.4]
+    
+    
+Requirement already satisfied (use --upgrade to upgrade): numpy>=1.6 in /usr/lib/pymodules/python2.7 (from matplotlib)
+Downloading/unpacking six>=1.4 (from matplotlib)
+  Downloading six-1.10.0.tar.gz
+  Running setup.py egg_info for package six
+    
+    no previously-included directories found matching 'documentation/_build'
+Downloading/unpacking python-dateutil (from matplotlib)
+  Downloading python-dateutil-2.4.2.tar.gz (209Kb): 209Kb downloaded
+  Running setup.py egg_info for package python-dateutil
+    
+Downloading/unpacking pytz (from matplotlib)
+  Downloading pytz-2015.6.tar.bz2 (156Kb): 156Kb downloaded
+  Running setup.py egg_info for package pytz
+    
+Downloading/unpacking pyparsing!=2.0.0,>=1.5.6 (from matplotlib)
+  Downloading pyparsing-2.0.3.tar.gz (1.5Mb): 1.5Mb downloaded
+  Running setup.py egg_info for package pyparsing
+    
+Downloading/unpacking nose>=0.11.1 (from matplotlib)
+  Downloading nose-1.3.7.tar.gz (280Kb): 280Kb downloaded
+  Running setup.py egg_info for package nose
+    
+    no previously-included directories found matching 'doc/.build'
+Downloading/unpacking mock (from matplotlib)
+  Downloading mock-1.3.0.tar.gz (70Kb): 70Kb downloaded
+  Running setup.py egg_info for package mock
+    
+    Installed /home/pi/build/mock/.eggs/pbr-1.8.1-py2.7.egg
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Downloading/unpacking pbr>=0.11 (from mock->matplotlib)
+  Downloading pbr-1.8.1.tar.gz (104Kb): 104Kb downloaded
+  Running setup.py egg_info for package pbr
+    [pbr] Processing SOURCES.txt
+    warning: LocalManifestMaker: standard file '-c' not found
+    
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no files found matching 'requirements.txt'
+    warning: no previously-included files found matching '.gitignore'
+    warning: no previously-included files found matching '.gitreview'
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Installing collected packages: matplotlib, six, python-dateutil, pytz, pyparsing, nose, mock, pbr
+  Running setup.py install for matplotlib
+    ============================================================================
+    Edit setup.cfg to change the build options
+    
+    BUILDING MATPLOTLIB
+                matplotlib: yes [1.4.3]
+                    python: yes [2.7.3 (default, Mar 18 2014, 05:13:23)  [GCC
+                            4.6.3]]
+                  platform: yes [linux2]
+    
+    REQUIRED DEPENDENCIES AND EXTENSIONS
+                     numpy: yes [version 1.6.2]
+                       six: yes [six was not found.pip will attempt to install
+                            it after matplotlib.]
+                  dateutil: yes [dateutil was not found. It is required for date
+                            axis support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                      pytz: yes [pytz was not found. pip will attempt to install
+                            it after matplotlib.]
+                   tornado: yes [tornado was not found. It is required for the
+                            WebAgg backend. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                 pyparsing: yes [pyparsing was not found. It is required for
+                            mathtext support. pip/easy_install may attempt to
+                            install it after matplotlib.]
+                     pycxx: yes [Couldn't import.  Using local copy.]
+                    libagg: yes [pkg-config information for 'libagg' could not
+                            be found. Using local copy.]
+                  freetype: yes [version 2.5.2]
+                       png: yes [version 1.2.49]
+                     qhull: yes [pkg-config information for 'qhull' could not be
+                            found. Using local copy.]
+    
+    OPTIONAL SUBPACKAGES
+               sample_data: yes [installing]
+                  toolkits: yes [installing]
+                     tests: yes [nose 0.11.1 or later is required to run the
+                            matplotlib test suite.  pip/easy_install may attempt
+                            to install it after matplotlib. / mock is required
+                            to run the matplotlib test suite.  pip/easy_install
+                            may attempt to install it after matplotlib.]
+            toolkits_tests: yes [nose 0.11.1 or later is required to run the
+                            matplotlib test suite.  pip/easy_install may attempt
+                            to install it after matplotlib. / mock is required
+                            to run the matplotlib test suite.  pip/easy_install
+                            may attempt to install it after matplotlib.]
+    
+    OPTIONAL BACKEND EXTENSIONS
+                    macosx: no  [Mac OS-X only]
+                    qt5agg: no  [PyQt5 not found]
+                    qt4agg: no  [PyQt4 not found]
+                    pyside: no  [PySide not found]
+X11 connection rejected because of wrong authentication.
+    
+    ** (-c:25314): WARNING **: Could not open X display
+X11 connection rejected because of wrong authentication.
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+                   gtk3agg: yes [installing, version 3.2.10]
+X11 connection rejected because of wrong authentication.
+    
+    ** (-c:25330): WARNING **: Could not open X display
+X11 connection rejected because of wrong authentication.
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+X11 connection rejected because of wrong authentication.
+    Unable to init server
+X11 connection rejected because of wrong authentication.
+    /usr/lib/python2.7/dist-packages/gtk-2.0/gtk/__init__.py:57: GtkWarning: could not open display
+      warnings.warn(str(e), _gtk.Warning)
+X11 connection rejected because of wrong authentication.
+                 gtk3cairo: yes [installing, version 3.2.10]
+                    gtkagg: no  [The C/C++ header for gtk (gtk/gtk.h) could not
+                            be found.  You may need to install the development
+                            package.]
+                     tkagg: no  [The C/C++ header for Tk (tk.h) could not be
+                            found.  You may need to install the development
+                            package.]
+                     wxagg: no  [requires wxPython]
+                       gtk: no  [The C/C++ header for gtk (gtk/gtk.h) could not
+                            be found.  You may need to install the development
+                            package.]
+                       agg: yes [installing]
+                     cairo: yes [installing, pycairo version 1.8.8]
+                 windowing: no  [Microsoft Windows only]
+    
+    OPTIONAL LATEX DEPENDENCIES
+                    dvipng: no
+               ghostscript: yes [version 9.05]
+                     latex: yes [version 3.1415926]
+                   pdftops: yes [version 0.18.4]
+    
+    building 'matplotlib.ft2font' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c src/ft2font.cpp -o build/temp.linux-armv7l-2.7/src/ft2font.o
+    src/ft2font.cpp: In member function ‘Py::Object FT2Image::py_write_bitmap(const Py::Tuple&)’:
+    src/ft2font.cpp:184:15: warning: unused variable ‘offset’ [-Wunused-variable]
+    src/ft2font.h: In constructor ‘FT2Font::FT2Font(Py::PythonClassInstance*, Py::Tuple&, Py::Dict&)’:
+    src/ft2font.h:140:19: warning: ‘FT2Font::face’ will be initialized after [-Wreorder]
+    src/ft2font.h:136:16: warning:   ‘Py::Object FT2Font::image’ [-Wreorder]
+    src/ft2font.cpp:851:1: warning:   when initialized here [-Wreorder]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-armv7l-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:163:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:165:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ft2font_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/ft2font.o build/temp.linux-armv7l-2.7/src/mplutils.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lfreetype -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/ft2font.so
+    building 'matplotlib._png' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/libpng12 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c src/_png.cpp -o build/temp.linux-armv7l-2.7/src/_png.o
+    src/_png.cpp: In member function ‘Py::Object _png_module::write_png(const Py::Tuple&)’:
+    src/_png.cpp:108:15: warning: unused variable ‘offset’ [-Wunused-variable]
+    src/_png.cpp: In member function ‘PyObject* _png_module::_read_png(const Py::Object&, bool, int)’:
+    src/_png.cpp:316:15: warning: unused variable ‘offset’ [-Wunused-variable]
+    src/_png.cpp: In function ‘void init_png()’:
+    src/_png.cpp:633:25: warning: variable ‘_png’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/libpng12 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-armv7l-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:163:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:165:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/libpng12 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/libpng12 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/libpng12 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__png_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/libpng12 -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/_png.o build/temp.linux-armv7l-2.7/src/mplutils.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lpng12 -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/_png.so
+    building 'matplotlib._image' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/_image.cpp -o build/temp.linux-armv7l-2.7/src/_image.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-armv7l-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:163:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:165:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_bezier_arc.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_bezier_arc.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_curves.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_curves.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_image_filters.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_image_filters.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_trans_affine.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_trans_affine.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_contour.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_contour.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_dash.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_dash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_stroke.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_stroke.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vpgen_segmentator.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vpgen_segmentator.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__image_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/_image.o build/temp.linux-armv7l-2.7/src/mplutils.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_bezier_arc.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_curves.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_image_filters.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_trans_affine.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_contour.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_dash.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_stroke.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vpgen_segmentator.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/_image.so
+    building 'matplotlib.ttconv' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c src/_ttconv.cpp -o build/temp.linux-armv7l-2.7/src/_ttconv.o
+    src/_ttconv.cpp: In member function ‘virtual void PythonFileWriter::write(const char*)’:
+    src/_ttconv.cpp:57:71: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/ttconv/pprdrv_tt.cpp -o build/temp.linux-armv7l-2.7/extern/ttconv/pprdrv_tt.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from extern/ttconv/pprdrv_tt.cpp:34:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:163:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:165:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/ttconv/pprdrv_tt2.cpp -o build/temp.linux-armv7l-2.7/extern/ttconv/pprdrv_tt2.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/ttconv/ttutil.cpp -o build/temp.linux-armv7l-2.7/extern/ttconv/ttutil.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_ttconv_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/_ttconv.o build/temp.linux-armv7l-2.7/extern/ttconv/pprdrv_tt.o build/temp.linux-armv7l-2.7/extern/ttconv/pprdrv_tt2.o build/temp.linux-armv7l-2.7/extern/ttconv/ttutil.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/ttconv.so
+    building 'matplotlib._path' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/_path.cpp -o build/temp.linux-armv7l-2.7/src/_path.o
+    src/_path.cpp: In function ‘void init_path()’:
+    src/_path.cpp:1813:26: warning: variable ‘_path’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/path_cleanup.cpp -o build/temp.linux-armv7l-2.7/src/path_cleanup.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/agg_py_transforms.cpp -o build/temp.linux-armv7l-2.7/src/agg_py_transforms.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_bezier_arc.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_bezier_arc.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_curves.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_curves.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_image_filters.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_image_filters.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_trans_affine.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_trans_affine.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_contour.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_contour.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_dash.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_dash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_stroke.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_stroke.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vpgen_segmentator.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vpgen_segmentator.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__path_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/_path.o build/temp.linux-armv7l-2.7/src/path_cleanup.o build/temp.linux-armv7l-2.7/src/agg_py_transforms.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_bezier_arc.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_curves.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_image_filters.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_trans_affine.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_contour.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_dash.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_stroke.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vpgen_segmentator.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/_path.so
+    building 'matplotlib._cntr' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__cntr_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -I/usr/include/python2.7 -c src/cntr.c -o build/temp.linux-armv7l-2.7/src/cntr.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/cntr.o -L/usr/local/lib -o build/lib.linux-armv7l-2.7/matplotlib/_cntr.so
+    building 'matplotlib._delaunay' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -I/usr/include/python2.7 -c lib/matplotlib/delaunay/_delaunay.cpp -o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/_delaunay.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -I/usr/include/python2.7 -c lib/matplotlib/delaunay/VoronoiDiagramGenerator.cpp -o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/VoronoiDiagramGenerator.o
+    lib/matplotlib/delaunay/VoronoiDiagramGenerator.cpp: In member function ‘bool VoronoiDiagramGenerator::voronoi(int)’:
+    lib/matplotlib/delaunay/VoronoiDiagramGenerator.cpp:946:9: warning: ‘newintstar.Point::y’ may be used uninitialized in this function [-Wuninitialized]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -I/usr/include/python2.7 -c lib/matplotlib/delaunay/delaunay_utils.cpp -o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/delaunay_utils.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__delaunay_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -I/usr/include/python2.7 -c lib/matplotlib/delaunay/natneighbors.cpp -o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/natneighbors.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/_delaunay.o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/VoronoiDiagramGenerator.o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/delaunay_utils.o build/temp.linux-armv7l-2.7/lib/matplotlib/delaunay/natneighbors.o -L/usr/local/lib -o build/lib.linux-armv7l-2.7/matplotlib/_delaunay.so
+    building 'matplotlib._qhull' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c src/qhull_wrap.c -o build/temp.linux-armv7l-2.7/src/qhull_wrap.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/libqhull.c -o build/temp.linux-armv7l-2.7/extern/qhull/libqhull.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/rboxlib.c -o build/temp.linux-armv7l-2.7/extern/qhull/rboxlib.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/user.c -o build/temp.linux-armv7l-2.7/extern/qhull/user.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/geom2.c -o build/temp.linux-armv7l-2.7/extern/qhull/geom2.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/userprintf.c -o build/temp.linux-armv7l-2.7/extern/qhull/userprintf.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/stat.c -o build/temp.linux-armv7l-2.7/extern/qhull/stat.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/usermem.c -o build/temp.linux-armv7l-2.7/extern/qhull/usermem.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/io.c -o build/temp.linux-armv7l-2.7/extern/qhull/io.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/random.c -o build/temp.linux-armv7l-2.7/extern/qhull/random.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/geom.c -o build/temp.linux-armv7l-2.7/extern/qhull/geom.o
+    extern/qhull/geom.c: In function ‘qh_projectpoint’:
+    extern/qhull/geom.c:897:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/geom.c: In function ‘qh_setfacetplane’:
+    extern/qhull/geom.c:935:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/poly2.c -o build/temp.linux-armv7l-2.7/extern/qhull/poly2.o
+    extern/qhull/poly2.c: In function ‘qh_delridge’:
+    extern/qhull/poly2.c:1076:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/userprintf_rbox.c -o build/temp.linux-armv7l-2.7/extern/qhull/userprintf_rbox.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/qset.c -o build/temp.linux-armv7l-2.7/extern/qhull/qset.o
+    extern/qhull/qset.c: In function ‘qh_setfree’:
+    extern/qhull/qset.c:717:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/qset.c: In function ‘qh_setnew’:
+    extern/qhull/qset.c:927:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/poly.c -o build/temp.linux-armv7l-2.7/extern/qhull/poly.o
+    extern/qhull/poly.c: In function ‘qh_delfacet’:
+    extern/qhull/poly.c:248:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/poly.c: In function ‘qh_makenew_nonsimplicial’:
+    extern/qhull/poly.c:564:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/poly.c: In function ‘qh_newfacet’:
+    extern/qhull/poly.c:981:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/poly.c: In function ‘qh_newridge’:
+    extern/qhull/poly.c:1014:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/merge.c -o build/temp.linux-armv7l-2.7/extern/qhull/merge.o
+    extern/qhull/merge.c: In function ‘qh_all_merges’:
+    extern/qhull/merge.c:219:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/merge.c: In function ‘qh_appendmergeset’:
+    extern/qhull/merge.c:322:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    extern/qhull/merge.c: In function ‘qh_mergecycle_ridges’:
+    extern/qhull/merge.c:2086:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/global.c -o build/temp.linux-armv7l-2.7/extern/qhull/global.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DMPL_DEVNULL=/dev/null -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__qhull_ARRAY_API -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/qhull/mem.c -o build/temp.linux-armv7l-2.7/extern/qhull/mem.o
+    gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/qhull_wrap.o build/temp.linux-armv7l-2.7/extern/qhull/libqhull.o build/temp.linux-armv7l-2.7/extern/qhull/rboxlib.o build/temp.linux-armv7l-2.7/extern/qhull/user.o build/temp.linux-armv7l-2.7/extern/qhull/geom2.o build/temp.linux-armv7l-2.7/extern/qhull/userprintf.o build/temp.linux-armv7l-2.7/extern/qhull/stat.o build/temp.linux-armv7l-2.7/extern/qhull/usermem.o build/temp.linux-armv7l-2.7/extern/qhull/io.o build/temp.linux-armv7l-2.7/extern/qhull/random.o build/temp.linux-armv7l-2.7/extern/qhull/geom.o build/temp.linux-armv7l-2.7/extern/qhull/poly2.o build/temp.linux-armv7l-2.7/extern/qhull/userprintf_rbox.o build/temp.linux-armv7l-2.7/extern/qhull/qset.o build/temp.linux-armv7l-2.7/extern/qhull/poly.o build/temp.linux-armv7l-2.7/extern/qhull/merge.o build/temp.linux-armv7l-2.7/extern/qhull/global.o build/temp.linux-armv7l-2.7/extern/qhull/mem.o -L/usr/local/lib -o build/lib.linux-armv7l-2.7/matplotlib/_qhull.so
+    building 'matplotlib._tri' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c lib/matplotlib/tri/_tri.cpp -o build/temp.linux-armv7l-2.7/lib/matplotlib/tri/_tri.o
+    lib/matplotlib/tri/_tri.cpp: In function ‘void init_tri()’:
+    lib/matplotlib/tri/_tri.cpp:2204:23: warning: variable ‘triModule’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-armv7l-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:163:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:165:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib__tri_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/local/include -I/usr/include -I. -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/lib/matplotlib/tri/_tri.o build/temp.linux-armv7l-2.7/src/mplutils.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/_tri.so
+    building 'matplotlib.backends._backend_agg' extension
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/mplutils.cpp -o build/temp.linux-armv7l-2.7/src/mplutils.o
+    In file included from /usr/include/python2.7/Python.h:8:0,
+                     from src/mplutils.h:18,
+                     from src/mplutils.cpp:6:
+    /usr/include/python2.7/pyconfig.h:1161:0: warning: "_POSIX_C_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:163:0: note: this is the location of the previous definition
+    /usr/include/python2.7/pyconfig.h:1183:0: warning: "_XOPEN_SOURCE" redefined [enabled by default]
+    /usr/include/features.h:165:0: note: this is the location of the previous definition
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/agg_py_transforms.cpp -o build/temp.linux-armv7l-2.7/src/agg_py_transforms.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c src/_backend_agg.cpp -o build/temp.linux-armv7l-2.7/src/_backend_agg.o
+    src/_backend_agg.cpp: In member function ‘Py::Object RendererAgg::write_rgba(const Py::Tuple&)’:
+    src/_backend_agg.cpp:2156:15: warning: unused variable ‘offset’ [-Wunused-variable]
+    src/_backend_agg.cpp: In function ‘void init_backend_agg()’:
+    src/_backend_agg.cpp:2637:33: warning: variable ‘_backend_agg’ set but not used [-Wunused-but-set-variable]
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_bezier_arc.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_bezier_arc.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_curves.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_curves.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_image_filters.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_image_filters.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_trans_affine.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_trans_affine.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_contour.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_contour.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_dash.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_dash.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vcgen_stroke.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_stroke.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/agg24/src/agg_vpgen_segmentator.cpp -o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vpgen_segmentator.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/IndirectPythonInterface.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxsupport.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxx_extensions.cxx -o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o
+    gcc -pthread -fno-strict-aliasing -DNDEBUG -g -fwrapv -O2 -Wall -fPIC -DPY_ARRAY_UNIQUE_SYMBOL=MPL_matplotlib_backends__backend_agg_ARRAY_API -DPYCXX_ISO_CPP_LIB=1 -I/usr/lib/pymodules/python2.7/numpy/core/include -I/usr/include/freetype2 -I/usr/local/include -I/usr/include -I. -Iextern/agg24/include -Iextern -I/usr/include/python2.7 -c extern/CXX/cxxextensions.c -o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o
+    g++ -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro build/temp.linux-armv7l-2.7/src/mplutils.o build/temp.linux-armv7l-2.7/src/agg_py_transforms.o build/temp.linux-armv7l-2.7/src/_backend_agg.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_bezier_arc.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_curves.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_image_filters.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_trans_affine.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_contour.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_dash.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vcgen_stroke.o build/temp.linux-armv7l-2.7/extern/agg24/src/agg_vpgen_segmentator.o build/temp.linux-armv7l-2.7/extern/CXX/IndirectPythonInterface.o build/temp.linux-armv7l-2.7/extern/CXX/cxxsupport.o build/temp.linux-armv7l-2.7/extern/CXX/cxx_extensions.o build/temp.linux-armv7l-2.7/extern/CXX/cxxextensions.o -L/usr/local/lib -lfreetype -lstdc++ -lm -o build/lib.linux-armv7l-2.7/matplotlib/backends/_backend_agg.so
+    Skipping installation of /usr/local/lib/python2.7/dist-packages/mpl_toolkits/__init__.py (namespace package)
+    
+    Installing /usr/local/lib/python2.7/dist-packages/matplotlib-1.4.3-py2.7-nspkg.pth
+  Running setup.py install for six
+    
+    no previously-included directories found matching 'documentation/_build'
+  Running setup.py install for python-dateutil
+    
+  Running setup.py install for pytz
+    
+  Running setup.py install for pyparsing
+    
+  Running setup.py install for nose
+    
+    no previously-included directories found matching 'doc/.build'
+    Installing nosetests script to /usr/local/bin
+    Installing nosetests-2.7 script to /usr/local/bin
+  Running setup.py install for mock
+    [pbr] Generating AUTHORS
+    [pbr] AUTHORS complete (0.0s)
+    [pbr] Reusing existing SOURCES.txt
+  Running setup.py install for pbr
+    [pbr] Generating AUTHORS
+    [pbr] AUTHORS complete (0.0s)
+    [pbr] Reusing existing SOURCES.txt
+    Installing pbr script to /usr/local/bin
+Successfully installed matplotlib six python-dateutil pytz pyparsing nose mock pbr
+Cleaning up...
+
+cd wkg/raspberrypi2_yocto
+
+ scp -r matplot_examples/ pi@192.168.1.146:~/
+
+scp yosys_arachne-pnr_icebox_extract.sh pi@192.168.1.146:~/
+ ./yosys_arachne-pnr_icebox_extract.sh > yosyss_arachne-pnr_icebox.log
+remote: Counting objects: 3280, done.
+remote: Compressing objects: 100% (90/90), done.
+remote: Total 3280 (delta 36), reused 0 (delta 0), pack-reused 3187
+Receiving objects: 100% (3280/3280), 632.74 KiB | 388 KiB/s, done.
+Resolving deltas: 100% (1973/1973), done.
+Traceback (most recent call last):
+  File "ex_icestick.py", line 2, in <module>
+    import rhea.build as build
+  File "/home/pi/rhea/rhea/build/__init__.py", line 2, in <module>
+    from .boards import get_board
+  File "/home/pi/rhea/rhea/build/boards/__init__.py", line 2, in <module>
+    from ._get_board import get_board
+  File "/home/pi/rhea/rhea/build/boards/_get_board.py", line 7, in <module>
+    from .xilinx._xula import Xula, Xula2
+  File "/home/pi/rhea/rhea/build/boards/xilinx/_xula.py", line 5, in <module>
+    from ..._fpga import _fpga
+  File "/home/pi/rhea/rhea/build/_fpga.py", line 12, in <module>
+    import myhdl
+ImportError: No module named myhdl
+Traceback (most recent call last):
+  File "ex_catboard.py", line 2, in <module>
+    import rhea.build as build
+  File "/home/pi/rhea/rhea/build/__init__.py", line 2, in <module>
+    from .boards import get_board
+  File "/home/pi/rhea/rhea/build/boards/__init__.py", line 2, in <module>
+    from ._get_board import get_board
+  File "/home/pi/rhea/rhea/build/boards/_get_board.py", line 7, in <module>
+    from .xilinx._xula import Xula, Xula2
+  File "/home/pi/rhea/rhea/build/boards/xilinx/_xula.py", line 5, in <module>
+    from ..._fpga import _fpga
+  File "/home/pi/rhea/rhea/build/_fpga.py", line 12, in <module>
+    import myhdl
+ImportError: No module named myhdl
+ls: cannot access iceriver/: No such file or directory
+
+
