@@ -1,0 +1,329 @@
+10/27/15
+gzip -dc /home/vidal/Downloads/2015-09-24-raspbian-jessie.zip | pv | dd bs=4M of=/dev/sdb
+
+gparted /dev/sdb
+
+sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libjs-excanvas libreadline6-dev libtinfo-dev mercurial-common tcl tcl8.6
+  tcl8.6-dev
+Suggested packages:
+  readline-doc qct kdiff3 kdiff3-qt kompare meld tkcvs mgdiff wish
+  python-mysqldb python-pygments tcl-doc tcl-tclreadline tcl8.6-doc
+The following NEW packages will be installed:
+  libffi-dev libjs-excanvas libreadline-dev libreadline6-dev libtinfo-dev
+  mercurial mercurial-common squashfs-tools tcl tcl-dev tcl8.6 tcl8.6-dev
+0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3,134 kB of archives.
+After this operation, 14.1 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install python-matplotlib
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  fonts-lyx libglade2-0 libjs-jquery-ui python-dateutil python-glade2
+  python-imaging python-matplotlib-data python-mock python-nose
+  python-pyparsing python-tz
+Suggested packages:
+  libjs-jquery-ui-docs python-gtk2-doc dvipng ghostscript inkscape ipython
+  python-cairocffi python-configobj python-excelerator python-matplotlib-doc
+  python-qt4 python-scipy python-sip python-tornado python-traits
+  python-wxgtk3.0 texlive-extra-utils texlive-latex-extra ttf-staypuft
+  python-mock-doc python-coverage python-nose-doc
+The following NEW packages will be installed:
+  fonts-lyx libglade2-0 libjs-jquery-ui python-dateutil python-glade2
+  python-imaging python-matplotlib python-matplotlib-data python-mock
+  python-nose python-pyparsing python-tz
+0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+Need to get 7,813 kB of archives.
+After this operation, 22.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+git clone https://github.com/jandecaluwe/myhdl.git
+cd myhdl/
+sudo python setup.py install
+
+git clone https://github.com/xesscorp/XSTOOLs.git
+cd XSTOOLs/
+sudo python setup.py install
+
+sudo apt-get install vlc
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  liba52-0.7.4 libbasicusageenvironment0 libcddb2 libdvbpsi9 libebml4
+  libfreerdp-cache1.1 libfreerdp-client1.1 libfreerdp-codec1.1
+  libfreerdp-common1.1.0 libfreerdp-core1.1 libfreerdp-crypto1.1
+  libfreerdp-gdi1.1 libfreerdp-locale1.1 libfreerdp-primitives1.1
+  libfreerdp-rail1.1 libfreerdp-utils1.1 libgles1-mesa libgles2-mesa
+  libgroupsock1 libiso9660-8 liblircclient0 liblivemedia23 liblua5.2-0
+  libmatroska6 libmpcdec6 libmpeg2-4 libpostproc52 libproxy-tools
+  libresid-builder0c2a libshine3 libsidplay2 libspeexdsp1 libtwolame0 libupnp6
+  libusageenvironment1 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5 libvlccore8
+  libvncclient0 libwinpr-crt0.1 libwinpr-crypto0.1 libwinpr-dsparse0.1
+  libwinpr-environment0.1 libwinpr-file0.1 libwinpr-handle0.1 libwinpr-heap0.1
+  libwinpr-input0.1 libwinpr-interlocked0.1 libwinpr-library0.1
+  libwinpr-path0.1 libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1
+  libwinpr-sspi0.1 libwinpr-synch0.1 libwinpr-sysinfo0.1 libwinpr-thread0.1
+  libwinpr-utils0.1 libxcb-composite0 libxcb-keysyms1 libxcb-randr0 libxcb-xv0
+  libzvbi-common libzvbi0 vlc-data vlc-nox vlc-plugin-notify vlc-plugin-samba
+Suggested packages:
+  freerdp-x11 lirc videolan-doc libdvdcss2
+The following NEW packages will be installed:
+  liba52-0.7.4 libbasicusageenvironment0 libcddb2 libdvbpsi9 libebml4
+  libfreerdp-cache1.1 libfreerdp-client1.1 libfreerdp-codec1.1
+  libfreerdp-common1.1.0 libfreerdp-core1.1 libfreerdp-crypto1.1
+  libfreerdp-gdi1.1 libfreerdp-locale1.1 libfreerdp-primitives1.1
+  libfreerdp-rail1.1 libfreerdp-utils1.1 libgles1-mesa libgles2-mesa
+  libgroupsock1 libiso9660-8 liblircclient0 liblivemedia23 liblua5.2-0
+  libmatroska6 libmpcdec6 libmpeg2-4 libpostproc52 libproxy-tools
+  libresid-builder0c2a libshine3 libsidplay2 libspeexdsp1 libtwolame0 libupnp6
+  libusageenvironment1 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5 libvlccore8
+  libvncclient0 libwinpr-crt0.1 libwinpr-crypto0.1 libwinpr-dsparse0.1
+  libwinpr-environment0.1 libwinpr-file0.1 libwinpr-handle0.1 libwinpr-heap0.1
+  libwinpr-input0.1 libwinpr-interlocked0.1 libwinpr-library0.1
+  libwinpr-path0.1 libwinpr-pool0.1 libwinpr-registry0.1 libwinpr-rpc0.1
+  libwinpr-sspi0.1 libwinpr-synch0.1 libwinpr-sysinfo0.1 libwinpr-thread0.1
+  libwinpr-utils0.1 libxcb-composite0 libxcb-keysyms1 libxcb-randr0 libxcb-xv0
+  libzvbi-common libzvbi0 vlc vlc-data vlc-nox vlc-plugin-notify
+  vlc-plugin-samba
+0 upgraded, 71 newly installed, 0 to remove and 0 not upgraded.
+Need to get 16.6 MB of archives.
+After this operation, 58.3 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install python-sphinx texlive biblatex texlive-fonts-recommended gedit geany
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  docutils-common docutils-doc etoolbox fonts-droid fonts-lmodern
+  fonts-texgyre geany-common gedit-common ghostscript gir1.2-peas-1.0
+  gnome-user-guide libfile-homedir-perl libfile-which-perl libgs9
+  libgs9-common libgtksourceview-3.0-1 libgtksourceview-3.0-common libijs-0.35
+  libjbig2dec0 libjs-sphinxdoc libjs-underscore libkpathsea6 libpaper-utils
+  libpaper1 libpeas-1.0-0 libpeas-common libpoppler-qt4-4 libpotrace0
+  libptexenc1 libsynctex1 libutempter0 libyaml-tiny-perl libyelp0 libzzip-0-13
+  lmodern logreq prerex preview-latex-style prosper ps2eps python-docutils
+  python-jinja2 python-markupsafe python-pygments python-roman python3-cairo
+  python3-gi python3-gi-cairo sphinx-common sphinx-doc tex-common tex-gyre
+  texlive-base texlive-binaries texlive-extra-utils texlive-font-utils
+  texlive-fonts-recommended-doc texlive-generic-recommended texlive-latex-base
+  texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-pictures
+  texlive-pictures-doc texlive-pstricks texlive-pstricks-doc tipa tk tk8.6
+  vprerex xbitmaps xterm yelp yelp-xsl
+Suggested packages:
+  doc-base gedit-plugins ghostscript-x postscript-viewer texlive-lang-french
+  fonts-linuxlibertine ttf-linux-libertine python-jinja2-doc
+  ttf-bitstream-vera libjs-mathjax dvipng debhelper perl-tk latexdiff latexmk
+  dvidvi fragmaster lacheck purifyeps xindy chktex psutils t1utils
+  libtcltk-ruby dot2tex xfonts-cyrillic
+Recommended packages:
+  biber wish
+The following NEW packages will be installed:
+  biblatex docutils-common docutils-doc etoolbox fonts-droid fonts-lmodern
+  fonts-texgyre geany geany-common gedit gedit-common ghostscript
+  gir1.2-peas-1.0 gnome-user-guide libfile-homedir-perl libfile-which-perl
+  libgs9 libgs9-common libgtksourceview-3.0-1 libgtksourceview-3.0-common
+  libijs-0.35 libjbig2dec0 libjs-sphinxdoc libjs-underscore libkpathsea6
+  libpaper-utils libpaper1 libpeas-1.0-0 libpeas-common libpoppler-qt4-4
+  libpotrace0 libptexenc1 libsynctex1 libutempter0 libyaml-tiny-perl libyelp0
+  libzzip-0-13 lmodern logreq prerex preview-latex-style prosper ps2eps
+  python-docutils python-jinja2 python-markupsafe python-pygments python-roman
+  python-sphinx python3-cairo python3-gi python3-gi-cairo sphinx-common
+  sphinx-doc tex-common tex-gyre texlive texlive-base texlive-binaries
+  texlive-extra-utils texlive-font-utils texlive-fonts-recommended
+  texlive-fonts-recommended-doc texlive-generic-recommended texlive-latex-base
+  texlive-latex-base-doc texlive-latex-extra texlive-latex-extra-doc
+  texlive-latex-recommended texlive-latex-recommended-doc texlive-pictures
+  texlive-pictures-doc texlive-pstricks texlive-pstricks-doc tipa tk tk8.6
+  vprerex xbitmaps xterm yelp yelp-xsl
+0 upgraded, 82 newly installed, 0 to remove and 0 not upgraded.
+Need to get 726 MB of archives.
+After this operation, 1,209 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install cmake diffuse gitk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  cmake-data
+Suggested packages:
+  codeblocks eclipse ninja-build git-doc
+The following NEW packages will be installed:
+  cmake cmake-data diffuse gitk
+0 upgraded, 4 newly installed, 0 to remove and 15 not upgraded.
+Need to get 3,817 kB of archives.
+After this operation, 17.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install python-dev python-scipy
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libpython-dev libpython2.7-dev python-decorator python2.7-dev
+The following NEW packages will be installed:
+  libpython-dev libpython2.7-dev python-decorator python-dev python-scipy
+  python2.7-dev
+0 upgraded, 6 newly installed, 0 to remove and 15 not upgraded.
+Need to get 25.6 MB of archives.
+After this operation, 54.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install libtiff5-dev libjasper-dev libjpeg-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libjbig-dev libjpeg62-turbo-dev liblzma-dev libtiffxx5
+Suggested packages:
+  liblzma-doc
+The following NEW packages will be installed:
+  libjasper-dev libjbig-dev libjpeg-dev libjpeg62-turbo-dev liblzma-dev
+  libtiff5-dev libtiffxx5
+0 upgraded, 7 newly installed, 0 to remove and 15 not upgraded.
+Need to get 1,641 kB of archives.
+After this operation, 4,321 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install libgtk2.0-dev libavcodec-dev libavformat-dev libv4l-dev libswscale-dev libatlas-base-dev gfortran
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  autopoint debhelper gettext gfortran-4.9 gir1.2-gdkpixbuf-2.0 gir1.2-gtk-2.0
+  intltool-debian libasprintf-dev libatk1.0-dev libatlas-dev libavresample-dev
+  libavutil-dev libblas-dev libcairo-script-interpreter2 libcairo2-dev
+  libelfg0 libfontconfig1-dev libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common
+  libgdk-pixbuf2.0-dev libgettextpo-dev libgettextpo0 libgfortran-4.9-dev
+  libglib2.0-bin libglib2.0-dev libharfbuzz-dev libharfbuzz-gobject0
+  libice-dev libmail-sendmail-perl libpango1.0-dev libpcre3-dev libpcrecpp0
+  libpixman-1-dev libpthread-stubs0-dev libsm-dev libsys-hostname-long-perl
+  libunistring0 libx11-dev libx11-doc libxau-dev libxcb-render0-dev
+  libxcb-shm0-dev libxcb1-dev libxcomposite-dev libxcursor-dev libxdamage-dev
+  libxdmcp-dev libxext-dev libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxml2-utils libxrandr-dev libxrender-dev po-debconf x11proto-composite-dev
+  x11proto-core-dev x11proto-damage-dev x11proto-fixes-dev x11proto-input-dev
+  x11proto-kb-dev x11proto-randr-dev x11proto-render-dev x11proto-xext-dev
+  x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
+Suggested packages:
+  dh-make gettext-doc gfortran-doc gfortran-4.9-doc libgfortran3-dbg
+  libblas-doc liblapack-doc liblapack-dev libdc1394-22-dev libgsm1-dev
+  libogg-dev libraw1394-dev libschroedinger-dev libspeex-dev libtheora-dev
+  libvorbis-dev libcairo2-doc libglib2.0-doc libgtk2.0-doc libice-doc
+  imagemagick libpango1.0-doc libsm-doc libxcb-doc libxext-doc
+  libmail-box-perl
+The following NEW packages will be installed:
+  autopoint debhelper gettext gfortran gfortran-4.9 gir1.2-gtk-2.0
+  intltool-debian libasprintf-dev libatk1.0-dev libatlas-base-dev libatlas-dev
+  libavcodec-dev libavformat-dev libavresample-dev libavutil-dev libblas-dev
+  libcairo-script-interpreter2 libcairo2-dev libelfg0 libfontconfig1-dev
+  libgdk-pixbuf2.0-dev libgettextpo-dev libgettextpo0 libgfortran-4.9-dev
+  libglib2.0-bin libglib2.0-dev libgtk2.0-dev libharfbuzz-dev
+  libharfbuzz-gobject0 libice-dev libmail-sendmail-perl libpango1.0-dev
+  libpcre3-dev libpcrecpp0 libpixman-1-dev libpthread-stubs0-dev libsm-dev
+  libswscale-dev libsys-hostname-long-perl libunistring0 libv4l-dev libx11-dev
+  libx11-doc libxau-dev libxcb-render0-dev libxcb-shm0-dev libxcb1-dev
+  libxcomposite-dev libxcursor-dev libxdamage-dev libxdmcp-dev libxext-dev
+  libxfixes-dev libxft-dev libxi-dev libxinerama-dev libxml2-utils
+  libxrandr-dev libxrender-dev po-debconf x11proto-composite-dev
+  x11proto-core-dev x11proto-damage-dev x11proto-fixes-dev x11proto-input-dev
+  x11proto-kb-dev x11proto-randr-dev x11proto-render-dev x11proto-xext-dev
+  x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
+The following packages will be upgraded:
+  gir1.2-gdkpixbuf-2.0 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common
+3 upgraded, 72 newly installed, 0 to remove and 12 not upgraded.
+Need to get 32.2 MB of archives.
+After this operation, 118 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+git clone https://github.com/develone/opencv.git
+cd opencv/
+mkdir build
+cd build
+cmake -D BUILD_DOCS=ON -D BUILD_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D INSTALL_PYTHON_EXAMPLES=ON -D CMAKE_BUILD_TYPE=Release  -D CMAKE_INSTALL_PREFIX=/usr/local ..
+Tue 27 Oct 12:24:06 UTC 2015 Tue 27 Oct 14:45:21 UTC 2015
+
+sudo apt-get install octave 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  aglfn gnuplot-data gnuplot-tex gnuplot-x11 imagemagick-common libamd2.3.1
+  libarpack2 libauthen-sasl-perl libcamd2.3.1 libccolamd2.8.0 libcholmod2.1.2
+  libcxsparse3.1.2 libencode-locale-perl libfile-listing-perl libfltk-gl1.3
+  libfont-afm-perl libgl2ps0 libglpk36 libgraphicsmagick++3 libgraphicsmagick3
+  libhdf5-8 libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libintl-perl libio-html-perl libio-socket-ssl-perl
+  liblqr-1-0 liblua5.1-0 liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libmagick++-6.q16-5 libmagickcore-6.q16-2 libmagickwand-6.q16-2
+  libmailtools-perl libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl
+  liboctave2 libplot2c2 libpstoedit0c2a libqhull6 libqrupdate1
+  libtext-unidecode-perl libumfpack5.6.2 liburi-perl libwmf0.2-7 libwww-perl
+  libwww-robotrules-perl libxml-libxml-perl libxml-namespacesupport-perl
+  libxml-parser-perl libxml-sax-base-perl libxml-sax-expat-perl
+  libxml-sax-perl octave-common pstoedit texinfo
+Suggested packages:
+  gnuplot-doc libdigest-hmac-perl libgssapi-perl libiodbc2-dev
+  libmysqlclient-dev graphicsmagick-dbg libdata-dump-perl libintl-xs-perl
+  libcrypt-ssleay-perl libmagickcore-6.q16-2-extra libauthen-ntlm-perl
+  octave-info octave-doc octave-htmldoc xfig ivtools-bin tgif transfig
+  texinfo-doc-nonfree
+The following NEW packages will be installed:
+  aglfn gnuplot-data gnuplot-tex gnuplot-x11 imagemagick-common libamd2.3.1
+  libarpack2 libauthen-sasl-perl libcamd2.3.1 libccolamd2.8.0 libcholmod2.1.2
+  libcxsparse3.1.2 libencode-locale-perl libfile-listing-perl libfltk-gl1.3
+  libfont-afm-perl libgl2ps0 libglpk36 libgraphicsmagick++3 libgraphicsmagick3
+  libhdf5-8 libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libintl-perl libio-html-perl libio-socket-ssl-perl
+  liblqr-1-0 liblua5.1-0 liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libmagick++-6.q16-5 libmagickcore-6.q16-2 libmagickwand-6.q16-2
+  libmailtools-perl libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl
+  liboctave2 libplot2c2 libpstoedit0c2a libqhull6 libqrupdate1
+  libtext-unidecode-perl libumfpack5.6.2 liburi-perl libwmf0.2-7 libwww-perl
+  libwww-robotrules-perl libxml-libxml-perl libxml-namespacesupport-perl
+  libxml-parser-perl libxml-sax-base-perl libxml-sax-expat-perl
+  libxml-sax-perl octave octave-common pstoedit texinfo
+0 upgraded, 66 newly installed, 0 to remove and 12 not upgraded.
+Need to get 20.9 MB of archives.
+After this operation, 86.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+opencv built from source
+gsl built from source 
+
+sudo apt-get install gtkwave
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libjudydebian1
+The following NEW packages will be installed:
+  gtkwave libjudydebian1
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 2,322 kB of archives.
+After this operation, 4,129 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
+sudo apt-get install python-matplotlib
+sudo apt-get install vlc
+sudo apt-get install python-sphinx texlive biblatex texlive-fonts-recommended gedit geany
+sudo apt-get install cmake diffuse gitk
+sudo apt-get install python-dev python-scipy
+sudo apt-get install libtiff5-dev libjasper-dev libjpeg-dev
+sudo apt-get install libgtk2.0-dev libavcodec-dev libavformat-dev libv4l-dev libswscale-dev libatlas-base-dev gfortran
+sudo apt-get install octave
+sudo apt-get install gtkwave
