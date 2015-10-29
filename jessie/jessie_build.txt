@@ -317,6 +317,24 @@ The following NEW packages will be installed:
 Need to get 2,322 kB of archives.
 After this operation, 4,129 kB of additional disk space will be used.
 Do you want to continue? [Y/n]
+
+sudo apt-get install gimp
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  gimp-data libbabl-0.1-0 libgegl-0.2-0 libgimp2.0 libopenraw1
+  libpoppler-glib8
+Suggested packages:
+  gimp-help-en gimp-help gimp-data-extras
+The following NEW packages will be installed:
+  gimp gimp-data libbabl-0.1-0 libgegl-0.2-0 libgimp2.0 libopenraw1
+  libpoppler-glib8
+0 upgraded, 7 newly installed, 0 to remove and 12 not upgraded.
+Need to get 14.5 MB of archives.
+After this operation, 65.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -327,3 +345,5 @@ sudo apt-get install libtiff5-dev libjasper-dev libjpeg-dev
 sudo apt-get install libgtk2.0-dev libavcodec-dev libavformat-dev libv4l-dev libswscale-dev libatlas-base-dev gfortran
 sudo apt-get install octave
 sudo apt-get install gtkwave
+sudo apt-get install gimp
+
