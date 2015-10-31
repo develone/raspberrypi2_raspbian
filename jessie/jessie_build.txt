@@ -346,6 +346,71 @@ The following NEW packages will be installed:
   iceweasel
 0 upgraded, 1 newly installed, 0 to remove and 12 not upgraded.
 
+openjpeg built from source
+tar xfz openjpeg-2.1.0.tar.gz 
+cd openjpeg-2.1.0/
+cmake .
+make
+sudo make install
+
+sudo apt-get install kolourpaint4
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  docbook-xml docbook-xsl kate-data katepart kde-runtime kde-runtime-data
+  kdelibs-bin kdelibs5-data kdelibs5-plugins kdoctools libattica0.4
+  libcanberra0 libdbusmenu-qt2 libdlrestrictions1 libexiv2-13 libfam0
+  libgpgme++2 libiodbc2 libkactivities-bin libkactivities-models1
+  libkactivities6 libkatepartinterfaces4 libkcmutils4 libkde3support4
+  libkdeclarative5 libkdecore5 libkdesu5 libkdeui5 libkdewebkit5 libkdnssd4
+  libkemoticons4 libkfile4 libkhtml5 libkio5 libkjsapi4 libkjsembed4
+  libkmediaplayer4 libknewstuff3-4 libknotifyconfig4 libkntlm4 libkparts4
+  libkprintutils4 libkpty4 libkrosscore4 libktexteditor4 libkxmlrpcclient4
+  libmysqlclient18 libnepomuk4 libnepomukcore4 libnepomukquery4a
+  libnepomukutils4 libnl-route-3-200 libntrack-qt4-1 libntrack0 libphonon4
+  libplasma3 libpolkit-qt-1-1 libpulse-mainloop-glib0 libqca2 libqimageblitz4
+  libqt4-declarative libqt4-designer libqt4-opengl libqt4-qt3support
+  libqt4-script libqt4-sql libqt4-sql-mysql libqt4-svg libsolid4 libsoprano4
+  libssh-gcrypt-4 libstreamanalyzer0 libstreams0 libthreadweaver4
+  libupower-glib3 mysql-common nepomuk-core-data ntrack-module-libnl-0
+  oxygen-icon-theme phonon phonon-backend-vlc plasma-scriptengine-javascript
+  sgml-data soprano-daemon upower vlc-plugin-pulse
+Suggested packages:
+  docbook docbook-dsssl docbook-defguide dbtoepub docbook-xsl-doc-html
+  docbook-xsl-doc-pdf docbook-xsl-doc-text docbook-xsl-doc docbook-xsl-saxon
+  fop libsaxon-java libxalan2-java libxslthl-java xalan djvulibre-bin finger
+  icoutils libcanberra-pulse sound-theme-freedesktop libcanberra-gtk0 exiv2
+  fam iodbc hspell libqca2-plugin-cyrus-sasl libqca2-plugin-gnupg
+  libqca2-plugin-ossl libqt4-declarative-folderlistmodel
+  libqt4-declarative-gestures libqt4-declarative-particles
+  libqt4-declarative-shaders qt4-qmlviewer libqt4-dev media-player-info
+  phonon-backend-gstreamer phonon-backend-mplayer perlsgml w3-recs opensp
+  virtuoso-minimal
+The following NEW packages will be installed:
+  docbook-xml docbook-xsl kate-data katepart kde-runtime kde-runtime-data
+  kdelibs-bin kdelibs5-data kdelibs5-plugins kdoctools kolourpaint4
+  libattica0.4 libcanberra0 libdbusmenu-qt2 libdlrestrictions1 libexiv2-13
+  libfam0 libgpgme++2 libiodbc2 libkactivities-bin libkactivities-models1
+  libkactivities6 libkatepartinterfaces4 libkcmutils4 libkde3support4
+  libkdeclarative5 libkdecore5 libkdesu5 libkdeui5 libkdewebkit5 libkdnssd4
+  libkemoticons4 libkfile4 libkhtml5 libkio5 libkjsapi4 libkjsembed4
+  libkmediaplayer4 libknewstuff3-4 libknotifyconfig4 libkntlm4 libkparts4
+  libkprintutils4 libkpty4 libkrosscore4 libktexteditor4 libkxmlrpcclient4
+  libmysqlclient18 libnepomuk4 libnepomukcore4 libnepomukquery4a
+  libnepomukutils4 libnl-route-3-200 libntrack-qt4-1 libntrack0 libphonon4
+  libplasma3 libpolkit-qt-1-1 libpulse-mainloop-glib0 libqca2 libqimageblitz4
+  libqt4-declarative libqt4-designer libqt4-opengl libqt4-qt3support
+  libqt4-script libqt4-sql libqt4-sql-mysql libqt4-svg libsolid4 libsoprano4
+  libssh-gcrypt-4 libstreamanalyzer0 libstreams0 libthreadweaver4
+  libupower-glib3 mysql-common nepomuk-core-data ntrack-module-libnl-0
+  oxygen-icon-theme phonon phonon-backend-vlc plasma-scriptengine-javascript
+  sgml-data soprano-daemon upower vlc-plugin-pulse
+0 upgraded, 87 newly installed, 0 to remove and 12 not upgraded.
+Need to get 67.8 MB of archives.
+After this operation, 164 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -358,4 +423,5 @@ sudo apt-get install octave
 sudo apt-get install gtkwave
 sudo apt-get install gimp
 sudo apt-get install iceweasel
+sudo apt-get install kolourpaint4
 
