@@ -202,6 +202,7 @@ hardlink					install
 hdparm						install
 hicolor-icon-theme				install
 hostname					install
+iceweasel					install
 idle						install
 idle-python2.7					install
 idle-python3.4					install
