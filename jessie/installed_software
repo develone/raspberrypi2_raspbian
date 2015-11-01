@@ -78,6 +78,7 @@ docbook-xsl					install
 docutils-common					install
 docutils-doc					install
 dosfstools					install
+doxygen						install
 dphys-swapfile					install
 dpkg						install
 dpkg-dev					install
@@ -351,6 +352,7 @@ libcgi-fast-perl				install
 libcgi-pm-perl					install
 libcholmod2.1.2:armhf				install
 libchromaprint0:armhf				install
+libclang1-3.5:armhf				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
 libcloog-isl4:armhf				install
@@ -746,6 +748,8 @@ libnss3:armhf					install
 libntdb1:armhf					install
 libntrack-qt4-1					install
 libntrack0					install
+libobjc-4.9-dev:armhf				install
+libobjc4:armhf					install
 libobrender29					install
 libobt2						install
 liboctave2:armhf				install
