@@ -411,6 +411,21 @@ Need to get 67.8 MB of archives.
 After this operation, 164 MB of additional disk space will be used.
 Do you want to continue? [Y/n]
 
+sudo apt-get install Doxygen
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libclang1-3.5 libobjc-4.9-dev libobjc4
+Suggested packages:
+  doxygen-latex doxygen-doc doxygen-gui graphviz
+The following NEW packages will be installed:
+  doxygen libclang1-3.5 libobjc-4.9-dev libobjc4
+0 upgraded, 4 newly installed, 0 to remove and 12 not upgraded.
+Need to get 5,800 kB of archives.
+After this operation, 22.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -424,4 +439,5 @@ sudo apt-get install gtkwave
 sudo apt-get install gimp
 sudo apt-get install iceweasel
 sudo apt-get install kolourpaint4
+sudo apt-get install Doxygen
 
