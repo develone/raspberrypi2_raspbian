@@ -188,6 +188,7 @@ gstreamer1.0-x:armhf				install
 gtk2-engines:armhf				install
 gtk2-engines-clearlookspix:armhf		install
 gtk2-engines-pixbuf:armhf			install
+gtkwave						install
 gvfs:armhf					install
 gvfs-backends					install
 gvfs-common					install
@@ -586,6 +587,7 @@ libjs-underscore				install
 libjson-c2:armhf				install
 libjson-glib-1.0-0:armhf			install
 libjson-glib-1.0-common				install
+libjudydebian1					install
 libk5crypto3:armhf				install
 libkate1					install
 libkeyutils1:armhf				install
