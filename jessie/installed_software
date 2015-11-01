@@ -138,6 +138,8 @@ gfortran					install
 gfortran-4.9					install
 ghostscript					install
 giblib1:armhf					install
+gimp						install
+gimp-data					install
 gir1.2-atk-1.0					install
 gir1.2-freedesktop:armhf			install
 gir1.2-gdkpixbuf-2.0				install
@@ -287,6 +289,7 @@ libavresample-dev				install
 libavresample2:armhf				install
 libavutil-dev					install
 libavutil54:armhf				install
+libbabl-0.1-0:armhf				install
 libbasicusageenvironment0			install
 libbind9-90					install
 libblas-common					install
@@ -456,6 +459,7 @@ libgdbm3:armhf					install
 libgdk-pixbuf2.0-0:armhf			install
 libgdk-pixbuf2.0-common				install
 libgdk-pixbuf2.0-dev				install
+libgegl-0.2-0:armhf				install
 libgeoclue0:armhf				install
 libgeoip1:armhf					install
 libgettextpo-dev:armhf				install
@@ -463,6 +467,7 @@ libgettextpo0:armhf				install
 libgfortran-4.9-dev:armhf			install
 libgfortran3:armhf				install
 libgif4:armhf					install
+libgimp2.0					install
 libgirepository-1.0-1:armhf			install
 libgksu2-0					install
 libgl1-mesa-glx:armhf				install
@@ -706,6 +711,7 @@ libopencv-objdetect2.4:armhf			install
 libopencv-video2.4:armhf			install
 libopenexr6:armhf				install
 libopenjpeg5:armhf				install
+libopenraw1:armhf				install
 libopts25:armhf					install
 libopus0:armhf					install
 liborc-0.4-0:armhf				install
@@ -748,6 +754,7 @@ libpod-readme-perl				install
 libpolkit-agent-1-0:armhf			install
 libpolkit-backend-1-0:armhf			install
 libpolkit-gobject-1-0:armhf			install
+libpoppler-glib8:armhf				install
 libpoppler-qt4-4:armhf				install
 libpoppler46:armhf				install
 libpopt0:armhf					install
