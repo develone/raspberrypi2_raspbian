@@ -241,6 +241,8 @@ kdelibs5-data					install
 kdelibs5-plugins				install
 kdoctools					install
 keyboard-configuration				install
+kicad						install
+kicad-common					install
 klibc-utils					install
 kmod						install
 kolourpaint4					install
@@ -1080,6 +1082,8 @@ libwps-0.3-3					install
 libwrap0:armhf					install
 libwww-perl					install
 libwww-robotrules-perl				install
+libwxbase3.0-0:armhf				install
+libwxgtk3.0-0:armhf				install
 libx11-6:armhf					install
 libx11-data					install
 libx11-dev:armhf				install

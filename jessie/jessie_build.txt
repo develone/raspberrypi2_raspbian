@@ -426,6 +426,29 @@ Need to get 5,800 kB of archives.
 After this operation, 22.7 MB of additional disk space will be used.
 Do you want to continue? [Y/n]
 
+sudo apt-get install kicad
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  kicad-common libwxbase3.0-0 libwxgtk3.0-0
+Suggested packages:
+  extra-xdg-menus kicad-doc-en kicad-doc-fr kicad-doc-de kicad-doc-es
+  kicad-doc-hu kicad-doc-ru kicad-doc-zh-cn
+The following NEW packages will be installed:
+  kicad kicad-common libwxbase3.0-0 libwxgtk3.0-0
+0 upgraded, 4 newly installed, 0 to remove and 12 not upgraded.
+Need to get 8,274 kB/40.3 MB of archives.
+After this operation, 458 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+git clone https://github.com/xesscorp/KiCad-Schematic-Symbol-Libraries.git
+
+cd KiCad-Schematic-Symbol-Libraries/
+
+sudo cp *.lib /usr/share/kicad/library/
+
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -440,4 +463,5 @@ sudo apt-get install gimp
 sudo apt-get install iceweasel
 sudo apt-get install kolourpaint4
 sudo apt-get install Doxygen
+sudo apt-get install kicad
 
