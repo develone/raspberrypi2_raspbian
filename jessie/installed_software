@@ -91,6 +91,8 @@ epiphany-browser				install
 epiphany-browser-data				install
 esound-common					install
 etoolbox					install
+evince						install
+evince-common					install
 fake-hwclock					install
 fakeroot					install
 fbset						install
@@ -290,6 +292,7 @@ libaudiofile1:armhf				install
 libaudit-common					install
 libaudit1:armhf					install
 libauthen-sasl-perl				install
+libav-tools					install
 libavahi-client3:armhf				install
 libavahi-common-data:armhf			install
 libavahi-common3:armhf				install
@@ -299,6 +302,8 @@ libavahi-gobject0:armhf				install
 libavc1394-0:armhf				install
 libavcodec-dev					install
 libavcodec56:armhf				install
+libavdevice55:armhf				install
+libavfilter5:armhf				install
 libavformat-dev					install
 libavformat56:armhf				install
 libavresample-dev				install
@@ -391,6 +396,8 @@ libdebconfclient0:armhf				install
 libdevmapper-event1.02.1:armhf			install
 libdevmapper1.02.1:armhf			install
 libdirectfb-1.2-9:armhf				install
+libdjvulibre-text				install
+libdjvulibre21:armhf				install
 libdlrestrictions1				install
 libdns-export100				install
 libdns100					install
@@ -420,7 +427,9 @@ libestr0					install
 libetonyek-0.1-1				install
 libetpan17:armhf				install
 libevdev2					install
+libevdocument3-4				install
 libevent-2.0-5:armhf				install
+libevview3-3					install
 libexif12:armhf					install
 libexiv2-13:armhf				install
 libexpat1:armhf					install
@@ -550,6 +559,7 @@ libgtksourceview-3.0-common			install
 libgtop2-7					install
 libgtop2-common					install
 libgudev-1.0-0:armhf				install
+libgxps2:armhf					install
 libharfbuzz-dev					install
 libharfbuzz-gobject0:armhf			install
 libharfbuzz-icu0:armhf				install
@@ -724,6 +734,7 @@ libmtp9:armhf					install
 libmwaw-0.3-3					install
 libmysqlclient18:armhf				install
 libmythes-1.2-0					install
+libnautilus-extension1a				install
 libncurses5:armhf				install
 libncursesw5:armhf				install
 libneon27-gnutls				install
@@ -948,6 +959,7 @@ libsoundtouch0:armhf				install
 libsoup-gnome2.4-1:armhf			install
 libsoup2.4-1:armhf				install
 libspandsp2:armhf				install
+libspectre1:armhf				install
 libspeex1:armhf					install
 libspeexdsp1:armhf				install
 libsqlite3-0:armhf				install

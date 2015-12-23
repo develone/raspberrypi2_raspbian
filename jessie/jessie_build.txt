@@ -448,6 +448,52 @@ cd KiCad-Schematic-Symbol-Libraries/
 
 sudo cp *.lib /usr/share/kicad/library/
 
+sudo apt-get install wicd-curses
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  python-urwid python-wicd rfkill wicd-daemon
+Suggested packages:
+  pm-utils
+The following NEW packages will be installed:
+  python-urwid python-wicd rfkill wicd-curses wicd-daemon
+0 upgraded, 5 newly installed, 0 to remove and 12 not upgraded.
+Need to get 1,039 kB of archives.
+After this operation, 4,175 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install libav-tools
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libavdevice55 libavfilter5
+Suggested packages:
+  frei0r-plugins
+The following NEW packages will be installed:
+  libav-tools libavdevice55 libavfilter5
+0 upgraded, 3 newly installed, 0 to remove and 12 not upgraded.
+Need to get 685 kB of archives.
+After this operation, 3,331 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install evince
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  evince-common libdjvulibre-text libdjvulibre21 libevdocument3-4 libevview3-3
+  libgxps2 libnautilus-extension1a libspectre1
+Suggested packages:
+  unrar nautilus libspectre1-dbg
+The following NEW packages will be installed:
+  evince evince-common libdjvulibre-text libdjvulibre21 libevdocument3-4
+  libevview3-3 libgxps2 libnautilus-extension1a libspectre1
+0 upgraded, 9 newly installed, 0 to remove and 12 not upgraded.
+Need to get 5,012 kB of archives.
+After this operation, 14.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
 
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
@@ -464,4 +510,7 @@ sudo apt-get install iceweasel
 sudo apt-get install kolourpaint4
 sudo apt-get install Doxygen
 sudo apt-get install kicad
+sudo apt-get install wicd-curses
+sudo apt-get install libav-tools
+sudo apt-get install evince
 
