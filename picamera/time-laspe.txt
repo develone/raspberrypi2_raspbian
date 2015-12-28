@@ -1,0 +1,20 @@
+sudo raspistill -e png -vf -hf -w 1920 -h 1080 -t 10800000 -tl 10000 -o /var/www/frame%04d.png & 
+sudo raspistill -e png -vf -hf -w 320 -h 240 -t 10800000 -tl 10000 -o /var/www/frame%04d.png &
+sudo raspistill -vf -hf -w 1920 -h 1080 -t 10800000 -tl 10000 -o /var/www/frame%04d.jpg 
+sudo avconv -i /var/www/frame%04d.jpg -crf 4 -b:v 10M /var/www/video.webm
+
+sudo avconv -i /var/www/frame%04d.png -crf 4 -b:v 10M /var/www/video.webm
+avconv -i frame%04d.png -crf 4 -b:v 10M video.webm
+1081 frames 320 x 240
+
+AMD 6 core w/16GB
+Fri Dec 25 08:47:54 MST 2015	Fri Dec 25 08:48:10 MST 2015
+
+RPi2B
+Fri Dec 25 16:53:48 UTC 2015	Fri Dec 25 16:59:05 UTC 2015	
+
+3 Hrs. of capture Takes only 43 sec to view
+
+-rw-r--r-- 1 root root 148392 Dec 24 21:42 /var/www/frame0001.png
+-rw-r--r-- 1 root root 47573 Dec 25 00:42 /var/www/frame1081.png
+
