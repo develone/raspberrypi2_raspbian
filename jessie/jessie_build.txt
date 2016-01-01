@@ -495,6 +495,42 @@ Need to get 5,012 kB of archives.
 After this operation, 14.7 MB of additional disk space will be used.
 Do you want to continue? [Y/n] 
 
+sudo apt-get install knot-dnsutils
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  knot-libs liblmdb0 liburcu2
+The following NEW packages will be installed:
+  knot-dnsutils knot-libs liblmdb0 liburcu2
+0 upgraded, 4 newly installed, 0 to remove and 12 not upgraded.
+Need to get 298 kB of archives.
+After this operation, 927 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install lsb-core
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  alien at bc debugedit guile-2.0-libs libgc1c2 libgsasl7 libkyotocabinet16
+  libmailutils4 libntlm0 librpm3 librpmbuild3 librpmio3 librpmsign1
+  libsigsegv2 lsb-invalid-mta lsb-security m4 mailutils mailutils-common pax
+  rpm rpm-common rpm2cpio time
+Suggested packages:
+  lintian rpm-i18n lsb mailutils-mh mailutils-doc elfutils rpmlint rpm2html
+Recommended packages:
+  default-mta mail-transport-agent
+The following NEW packages will be installed:
+  alien at bc debugedit guile-2.0-libs libgc1c2 libgsasl7 libkyotocabinet16
+  libmailutils4 libntlm0 librpm3 librpmbuild3 librpmio3 librpmsign1
+  libsigsegv2 lsb-core lsb-invalid-mta lsb-security m4 mailutils
+  mailutils-common pax rpm rpm-common rpm2cpio time
+0 upgraded, 26 newly installed, 0 to remove and 12 not upgraded.
+Need to get 13.9 MB of archives.
+After this operation, 28.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -513,4 +549,5 @@ sudo apt-get install kicad
 sudo apt-get install wicd-curses
 sudo apt-get install libav-tools
 sudo apt-get install evince
-
+sudo apt-get install knot-dnsutils
+sudo apt-get install lsb-core
