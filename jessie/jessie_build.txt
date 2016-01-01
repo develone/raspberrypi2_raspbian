@@ -531,6 +531,21 @@ Need to get 13.9 MB of archives.
 After this operation, 28.7 MB of additional disk space will be used.
 Do you want to continue? [Y/n]
 
+sudo apt-get install alien
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  debugedit librpm3 librpmbuild3 librpmio3 librpmsign1 rpm rpm-common rpm2cpio
+Suggested packages:
+  lintian rpm-i18n elfutils rpmlint rpm2html
+The following NEW packages will be installed:
+  alien debugedit librpm3 librpmbuild3 librpmio3 librpmsign1 rpm rpm-common
+  rpm2cpio
+0 upgraded, 9 newly installed, 0 to remove and 12 not upgraded.
+Need to get 8,625 kB of archives.
+After this operation, 9,519 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -551,3 +566,4 @@ sudo apt-get install libav-tools
 sudo apt-get install evince
 sudo apt-get install knot-dnsutils
 sudo apt-get install lsb-core
+sudo apt-get install alien

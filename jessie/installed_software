@@ -3,6 +3,7 @@ adduser						install
 adwaita-icon-theme				install
 aglfn						install
 alacarte					install
+alien						install
 alsa-base					install
 alsa-utils					install
 apt						install
@@ -11,12 +12,14 @@ aptitude					install
 aptitude-common					install
 aspell						install
 aspell-en					install
+at						install
 autopoint					install
 avahi-daemon					install
 base-files					install
 base-passwd					install
 bash						install
 bash-completion					install
+bc						install
 biblatex					install
 bind9-host					install
 binutils					install
@@ -63,6 +66,7 @@ debhelper					install
 debian-reference-common				install
 debian-reference-en				install
 debianutils					install
+debugedit					install
 desktop-base					install
 desktop-file-utils				install
 dh-python					install
@@ -196,6 +200,7 @@ gtk2-engines:armhf				install
 gtk2-engines-clearlookspix:armhf		install
 gtk2-engines-pixbuf:armhf			install
 gtkwave						install
+guile-2.0-libs:armhf				install
 gvfs:armhf					install
 gvfs-backends					install
 gvfs-common					install
@@ -247,6 +252,8 @@ kicad						install
 kicad-common					install
 klibc-utils					install
 kmod						install
+knot-dnsutils					install
+knot-libs					install
 kolourpaint4					install
 krb5-locales					install
 leafpad						install
@@ -481,6 +488,7 @@ libfreetype6-dev				install
 libfribidi0:armhf				install
 libfuse2:armhf					install
 libgbm1:armhf					install
+libgc1c2:armhf					install
 libgcc-4.9-dev:armhf				install
 libgcc1:armhf					install
 libgconf-2-4:armhf				install
@@ -538,6 +546,7 @@ libgraphite2-3:armhf				install
 libgroupsock1					install
 libgs9						install
 libgs9-common					install
+libgsasl7					install
 libgsm1:armhf					install
 libgssapi-krb5-2:armhf				install
 libgssapi3-heimdal:armhf			install
@@ -665,6 +674,7 @@ libkrosscore4					install
 libksba8:armhf					install
 libktexteditor4					install
 libkxmlrpcclient4				install
+libkyotocabinet16:armhf				install
 liblangtag-common				install
 liblangtag1					install
 liblapack3					install
@@ -675,6 +685,7 @@ liblightdm-gobject-1-0				install
 liblircclient0					install
 liblivemedia23					install
 libllvm3.5:armhf				install
+liblmdb0:armhf					install
 liblocale-gettext-perl				install
 liblockfile-bin					install
 liblockfile1:armhf				install
@@ -701,6 +712,7 @@ libmagickcore-6.q16-2:armhf			install
 libmagickwand-6.q16-2:armhf			install
 libmail-sendmail-perl				install
 libmailtools-perl				install
+libmailutils4:armhf				install
 libmatroska6:armhf				install
 libmenu-cache-bin				install
 libmenu-cache3:armhf				install
@@ -759,6 +771,7 @@ libnspr4:armhf					install
 libnss-mdns:armhf				install
 libnss3:armhf					install
 libntdb1:armhf					install
+libntlm0:armhf					install
 libntrack-qt4-1					install
 libntrack0					install
 libobjc-4.9-dev:armhf				install
@@ -914,6 +927,10 @@ libresid-builder0c2a				install
 librest-0.7-0:armhf				install
 librevenge-0.0-0				install
 libroken18-heimdal:armhf			install
+librpm3						install
+librpmbuild3					install
+librpmio3					install
+librpmsign1					install
 librsvg2-2:armhf				install
 librsvg2-common:armhf				install
 librtimulib-dev					install
@@ -946,6 +963,7 @@ libshout3:armhf					install
 libsidplay2					install
 libsigc++-1.2-5c2				install
 libsigc++-2.0-0c2a:armhf			install
+libsigsegv2:armhf				install
 libslang2:armhf					install
 libsm-dev:armhf					install
 libsm6:armhf					install
@@ -1020,6 +1038,7 @@ libumfpack5.6.2:armhf				install
 libunistring0:armhf				install
 libupnp6					install
 libupower-glib3:armhf				install
+liburcu2:armhf					install
 liburi-perl					install
 libusageenvironment1				install
 libusb-0.1-4:armhf				install
@@ -1196,7 +1215,10 @@ logreq						install
 logrotate					install
 lp-solve					install
 lsb-base					install
+lsb-core					install
+lsb-invalid-mta					install
 lsb-release					install
+lsb-security					install
 lua5.1						install
 luajit						install
 lxappearance					install
@@ -1214,6 +1236,9 @@ lxrandr						install
 lxsession					install
 lxtask						install
 lxterminal					install
+m4						install
+mailutils					install
+mailutils-common				install
 make						install
 makedev						install
 man-db						install
@@ -1261,6 +1286,7 @@ oxygen-icon-theme				install
 parted						install
 passwd						install
 patch						install
+pax						install
 pcmanfm						install
 penguinspuzzle					install
 perl						install
@@ -1344,7 +1370,9 @@ python-talloc					install
 python-tk					install
 python-tz					install
 python-urllib3					install
+python-urwid					install
 python-wheel					install
+python-wicd					install
 python-xklavier					install
 python2.7					install
 python2.7-dev					install
@@ -1399,9 +1427,13 @@ raspi-gpio					install
 rc-gui						install
 readline-common					install
 rename						install
+rfkill						install
 ri1.9.1						install
 rpcbind						install
 rpi-update					install
+rpm						install
+rpm-common					install
+rpm2cpio					install
 rsync						install
 rsyslog						install
 ruby						install
@@ -1474,6 +1506,7 @@ texlive-pictures				install
 texlive-pictures-doc				install
 texlive-pstricks				install
 texlive-pstricks-doc				install
+time						install
 timidity					install
 tipa						install
 tk						install
@@ -1508,6 +1541,8 @@ vlc-plugin-samba				install
 vprerex						install
 wget						install
 whiptail					install
+wicd-curses					install
+wicd-daemon					install
 wireless-tools					install
 wiringpi					install
 wolfram-engine					install
