@@ -1216,7 +1216,6 @@ logrotate					install
 lp-solve					install
 lsb-base					install
 lsb-core					install
-lsb-invalid-mta					install
 lsb-release					install
 lsb-security					install
 lua5.1						install
@@ -1253,6 +1252,7 @@ minecraft-pi					install
 module-init-tools				install
 mount						install
 mountall					install
+mpack						install
 multiarch-support				install
 mysql-common					install
 nano						install
@@ -1463,6 +1463,7 @@ squashfs-tools					install
 squeak-plugins-scratch				install
 squeak-vm					install
 ssh						install
+ssmtp						install
 startpar					install
 strace						install
 sudo						install
