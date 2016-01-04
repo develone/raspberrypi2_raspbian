@@ -581,6 +581,24 @@ Need to get 1,663 kB of archives.
 After this operation, 4,948 kB of additional disk space will be used.
 Do you want to continue? [Y/n]
 
+Changing the default port for Apache
+
+/etc/apache2
+ diff ports.conf ports.conf.orig 
+5,6c5
+< #Listen 80
+< Listen 52806
+---
+> Listen 80
+
+/etc/apache2/sites-enabled
+
+diff 000-default.conf 000-default.conf.orig 
+1c1
+< <VirtualHost *:52806>
+---
+> <VirtualHost *:80>
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
