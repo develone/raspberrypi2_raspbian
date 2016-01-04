@@ -6,6 +6,10 @@ alacarte					install
 alien						install
 alsa-base					install
 alsa-utils					install
+apache2						install
+apache2-bin					install
+apache2-data					install
+apache2-utils					install
 apt						install
 apt-utils					install
 aptitude					install
@@ -267,6 +271,10 @@ libalgorithm-diff-perl				install
 libalgorithm-diff-xs-perl			install
 libalgorithm-merge-perl				install
 libamd2.3.1:armhf				install
+libapr1:armhf					install
+libaprutil1:armhf				install
+libaprutil1-dbd-sqlite3:armhf			install
+libaprutil1-ldap:armhf				install
 libapt-inst1.5:armhf				install
 libapt-pkg4.12:armhf				install
 libarchive-extract-perl				install
@@ -1463,6 +1471,7 @@ squashfs-tools					install
 squeak-plugins-scratch				install
 squeak-vm					install
 ssh						install
+ssl-cert					install
 ssmtp						install
 startpar					install
 strace						install
