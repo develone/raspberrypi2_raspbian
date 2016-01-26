@@ -17,7 +17,10 @@ aptitude-common					install
 aspell						install
 aspell-en					install
 at						install
+autoconf					install
+automake					install
 autopoint					install
+autotools-dev					install
 avahi-daemon					install
 base-files					install
 base-passwd					install
@@ -147,6 +150,9 @@ gedit-common					install
 geoip-database					install
 gettext						install
 gettext-base					install
+gforth						install
+gforth-common					install
+gforth-lib:armhf				install
 gfortran					install
 gfortran-4.9					install
 ghostscript					install
@@ -455,6 +461,7 @@ libfaad2:armhf					install
 libfakeroot:armhf				install
 libfam0						install
 libfcgi-perl					install
+libffcall1					install
 libffi-dev:armhf				install
 libffi5:armhf					install
 libffi6:armhf					install

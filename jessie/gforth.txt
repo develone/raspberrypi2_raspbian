@@ -1,0 +1,46 @@
+https://www.raspberrypi.org/forums/viewtopic.php?f=34&t=43300
+
+Build the source from scratch.
+
+cd directory_for_source    # a directory for putting the source to work with
+sudo wget http://git.savannah.gnu.org/cgit/gforth.git/snapshot/gforth-0-7-3.tar.gz
+tar -xzvf gforth-0-7-3.tar.gz
+
+cd gforth-0-7-3
+sudo ./BUILD-FROM-SCRATCH --host=arm --build=arm  # note this may take a few moments with lots of messages that you can ignore 
+
+Make and install the previously built stuff.
+
+sudo make
+sudo make install
+
+At this moment you have gforth installed. To use it simply type gforth from the command line and you will see it start up with the version number( if this starts up with version 0.7.0 see below). You can find one version of the online manual here http://www.complang.tuwien.ac.at/forth/ ... Docs-html/
+If you use emacs then you can have an automatic highlight of your forth code. This is done with a file called "gforth.el" and should be already included in your /home/pi directory. Once you open emacs with some empty file or a gforth file you simply press esc-x (esc key and x key on windows machines assuming you are logged into your pi via ssh and putty ) then type forth-mode to see the highlighting.
+Source code to use in learning forth are located at /usr/local/share/gforth/0.7.3 Look through that directory for loads of stuff to learn from and use.
+You may have notice that above in the apt-get command gforth. This would normal be how you would get a version of gforth. In fact if you use apt-get install gforth you will get version 0.7.0 but it seems at this writing that there is some things missing from that version for debian users. If you are not installing this gforth on the latest raspberry pi debian version then that 0.7.0 version of gforth may work fine for you. Version 0.7.3 is the current stable version for Gforth at the time of this writing. Version 0.7.0 is needed to install the new version because forth is compiled from both c source and mostly forth source!
+Normally you type gforth to enter the interpreter but to get version 0.7.3 to show up you may need to change a symlink because that seems to be the issue with version 0.7.0. Do the following to now be able to use version 0.7.3: 
+
+cd /usr/bin
+sudo rm gforth
+sudo ln -s /usr/local/bin/gforth-0.7.3 gforth
+
+This simply makes the symlink called gforth in the directory /usr/bin and that allows you to type gforth at the command line and get version 0.7.3. To use the old version you simply type /usr/bin/gforth-0.7.0 at the command line or make another symlink that allows you to use some name to get to that version. Now you should have all the functionality of version 0.7.3 but still have access to version 0.7.0 if you need it!
+Note that there are several parts to gforth that are used for different purposes. Each of these parts also have symlinks in /usr/bin that would also need to be changed to point to the new location of where gforth version 0.7.3 is located. So if you want to use these parts you will need to make a symlink like above for each part. Here is a list of the parts:
+
+    gforth # this is the main way to use gforth
+    gforth-fast # this may execute faster then gforth normaly
+    gforth-itc # this is for advanced users of gforth
+    gforthmi # this is used to make an executable image for gforth code you make
+
+There is a version 0.7.3 for each of these parts that can be found at /usr/local/bin .
+
+cd /usr/bin/
+sudo rm gforth
+sudo ln -s /usr/local/bin/gforth-0.7.3 gforth
+sudo rm gforth-fast
+sudo ln -s /usr/local/bin/gforth-fast-0.7.3 gforth-fast
+sudo rm gforth-itc
+sudo ln -s /usr/local/bin/gforth-itc-0.7.3 gforth-itc
+sudo rm gforthmi
+sudo ln -s /usr/local/bin/gforthmi-0.7.3 gforthmi
+
