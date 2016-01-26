@@ -1,0 +1,30 @@
+Testing pypy on RPi2B jessie
+From the site below
+http://pypy.org/download.html
+Python2.7 compatible PyPy 4.0.1
+https://bitbucket.org/pypy/pypy/downloads/pypy-4.0.1-linux-armhf-raspbian.tar.bz2
+
+wget https://bitbucket.org/pypy/pypy/downloads/pypy-4.0.1-linux-armhf-raspbian.tar.bz2
+bzip2 -d pypy-4.0.1-linux-armhf-raspbian.tar.bz2
+
+cd /opt/
+sudo tar xvf /home/pi/pypy-4.0.1-linux-armhf-raspbian.tar
+
+Needed to install myhdl in pypy
+
+cd ~/myhdl/
+sudo /opt/pypy-4.0.1-linux-armhf-raspbian/bin/pypy setup.py  install
+
+Needed to install pip in pypy
+
+wget https://bootstrap.pypa.io/get-pip.py
+sudo /opt/pypy-4.0.1-linux-armhf-raspbian/bin/pypy get-pip.py
+
+Needed to install Pillow  in pypy
+
+sudo /opt/pypy-4.0.1-linux-armhf-raspbian/bin/pypy -m pip install Pillow
+
+ls /opt/pypy-4.0.1-linux-armhf-raspbian/site-packages/
+easy_install.py   _markerlib  myhdl-1.0dev-py2.7.egg-info  Pillow-3.1.0.dist-info  pip-8.0.2.dist-info  README      setuptools-19.6.dist-info  wheel-0.26.0.dist-info
+easy_install.pyc  myhdl       PIL                          pip                     pkg_resources        setuptools  wheel
+
