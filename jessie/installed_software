@@ -1229,6 +1229,7 @@ login						install
 logreq						install
 logrotate					install
 lp-solve					install
+lrzsz						install
 lsb-base					install
 lsb-core					install
 lsb-release					install
@@ -1264,6 +1265,7 @@ mercurial					install
 mercurial-common				install
 mime-support					install
 minecraft-pi					install
+minicom						install
 module-init-tools				install
 mount						install
 mountall					install

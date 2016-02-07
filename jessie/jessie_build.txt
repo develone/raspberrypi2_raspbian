@@ -627,6 +627,19 @@ Need to get 512 kB of archives.
 After this operation, 2,265 kB of additional disk space will be used.
 Do you want to continue? [Y/n]
 
+sudo apt-get install minicom
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  lrzsz
+The following NEW packages will be installed:
+  lrzsz minicom
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 330 kB of archives.
+After this operation, 986 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -652,4 +665,4 @@ sudo apt-get install ssmtp mailutils mpack
 sudo apt-get install apache2
 sudo apt-get install autoconf
 sudo apt-get install gforth
-
+sudo apt-get install minicom
