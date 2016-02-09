@@ -640,6 +640,86 @@ Need to get 330 kB of archives.
 After this operation, 986 kB of additional disk space will be used.
 Do you want to continue? [Y/n] 
 
+sudo apt-get install clang
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  binfmt-support clang-3.5 libclang-common-3.5-dev llvm-3.5 llvm-3.5-dev
+  llvm-3.5-runtime
+Suggested packages:
+  gnustep gnustep-devel clang-3.5-doc llvm-3.5-doc
+The following NEW packages will be installed:
+  binfmt-support clang clang-3.5 libclang-common-3.5-dev llvm-3.5 llvm-3.5-dev
+  llvm-3.5-runtime
+0 upgraded, 7 newly installed, 0 to remove and 12 not upgraded.
+Need to get 28.1 MB of archives.
+After this operation, 133 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install libftdi-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libftdi1 libusb-dev
+The following NEW packages will be installed:
+  libftdi-dev libftdi1 libusb-dev
+0 upgraded, 3 newly installed, 0 to remove and 12 not upgraded.
+Need to get 180 kB of archives.
+After this operation, 1,991 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install gawk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Suggested packages:
+  gawk-doc
+The following NEW packages will be installed:
+  gawk
+0 upgraded, 1 newly installed, 0 to remove and 12 not upgraded.
+Need to get 480 kB of archives.
+After this operation, 1,778 kB of additional disk space will be used.
+Get:1 http://mirrordirector.raspbian.org/raspbian/ jessie/main gawk armhf 1:4.1.1+dfsg-1 [480 kB]
+Fetched 480 kB in 1s (319 kB/s)
+Selecting previously unselected package gawk.
+(Reading database ... 201310 files and directories currently installed.)
+Preparing to unpack .../gawk_1%3a4.1.1+dfsg-1_armhf.deb ...
+Unpacking gawk (1:4.1.1+dfsg-1) ...
+Processing triggers for man-db (2.7.0.2-5) ...
+Setting up gawk (1:4.1.1+dfsg-1) ...
+
+sudo apt-get install bison
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libbison-dev
+Suggested packages:
+  bison-doc
+The following NEW packages will be installed:
+  bison libbison-dev
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 1,279 kB of archives.
+After this operation, 2,237 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install flex
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libfl-dev
+The following NEW packages will be installed:
+  flex libfl-dev
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 482 kB of archives.
+After this operation, 1,128 kB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
+sudo apt-get install gperf
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -666,3 +746,9 @@ sudo apt-get install apache2
 sudo apt-get install autoconf
 sudo apt-get install gforth
 sudo apt-get install minicom
+sudo apt-get install clang
+sudo apt-get install libftdi-dev
+sudo apt-get install gawk
+sudo apt-get install bison
+sudo apt-get install flex
+sudo apt-get install gperf

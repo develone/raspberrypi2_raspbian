@@ -29,7 +29,9 @@ bash-completion					install
 bc						install
 biblatex					install
 bind9-host					install
+binfmt-support					install
 binutils					install
+bison						install
 blt						install
 bluej						install
 bsdmainutils					install
@@ -38,6 +40,8 @@ build-essential					install
 bzip2						install
 ca-certificates					install
 cifs-utils					install
+clang						install
+clang-3.5					install
 claws-mail					install
 claws-mail-i18n					install
 cmake						install
@@ -114,6 +118,7 @@ firmware-brcm80211				install
 firmware-libertas				install
 firmware-ralink					install
 firmware-realtek				install
+flex						install
 fontconfig					install
 fontconfig-config				install
 fonts-dejavu					install
@@ -132,6 +137,7 @@ fuse						install
 g++						install
 g++-4.9						install
 galculator					install
+gawk						install
 gcc						install
 gcc-4.6-base:armhf				install
 gcc-4.7-base:armhf				install
@@ -189,6 +195,7 @@ gnupg2						install
 gnuplot-data					install
 gnuplot-tex					install
 gnuplot-x11					install
+gperf						install
 gpgv						install
 gpicview					install
 greenfoot					install
@@ -334,6 +341,7 @@ libavutil54:armhf				install
 libbabl-0.1-0:armhf				install
 libbasicusageenvironment0			install
 libbind9-90					install
+libbison-dev:armhf				install
 libblas-common					install
 libblas-dev					install
 libblas3					install
@@ -380,6 +388,7 @@ libcgi-fast-perl				install
 libcgi-pm-perl					install
 libcholmod2.1.2:armhf				install
 libchromaprint0:armhf				install
+libclang-common-3.5-dev				install
 libclang1-3.5:armhf				install
 libclass-c3-perl				install
 libclass-c3-xs-perl				install
@@ -471,6 +480,7 @@ libfile-fcntllock-perl				install
 libfile-homedir-perl				install
 libfile-listing-perl				install
 libfile-which-perl				install
+libfl-dev:armhf					install
 libflac8:armhf					install
 libflite1:armhf					install
 libfltk-gl1.3:armhf				install
@@ -501,6 +511,8 @@ libfreerdp-utils1.1:armhf			install
 libfreetype6:armhf				install
 libfreetype6-dev				install
 libfribidi0:armhf				install
+libftdi-dev					install
+libftdi1:armhf					install
 libfuse2:armhf					install
 libgbm1:armhf					install
 libgc1c2:armhf					install
@@ -1058,6 +1070,7 @@ liburi-perl					install
 libusageenvironment1				install
 libusb-0.1-4:armhf				install
 libusb-1.0-0:armhf				install
+libusb-dev					install
 libusbmuxd2:armhf				install
 libustr-1.0-1:armhf				install
 libutempter0					install
@@ -1223,6 +1236,9 @@ libzzip-0-13:armhf				install
 lightdm						install
 lightdm-gtk-greeter				install
 linux-libc-dev:armhf				install
+llvm-3.5					install
+llvm-3.5-dev					install
+llvm-3.5-runtime				install
 lmodern						install
 locales						install
 login						install

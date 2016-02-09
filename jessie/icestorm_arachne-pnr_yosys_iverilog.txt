@@ -1,0 +1,31 @@
+02/08/16 icestorm arachne-pnr yosys and iverilog
+
+Additional packages needed for jessie
+
+sudo apt-get install clang
+sudo apt-get install libftdi-dev
+sudo apt-get install gawk
+sudo apt-get install bison
+sudo apt-get install flex
+
+
+git clone https://github.com/cliffordwolf/icestorm.git icestorm
+make -j$(nproc)
+sudo make install
+
+git clone https://github.com/cseed/arachne-pnr.git arachne-pnr
+make -j$(nproc)
+sudo make install
+
+git clone https://github.com/cliffordwolf/yosys.git yosys
+make -j$(nproc)
+sudo make install
+
+git clone https://github.com/steveicarus/iverilog.git
+git checkout --track -b v10-branch origin/v10-branch
+git pull
+sh autoconf.sh
+./configure
+
+
+
