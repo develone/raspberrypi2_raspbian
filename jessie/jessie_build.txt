@@ -752,3 +752,10 @@ sudo apt-get install gawk
 sudo apt-get install bison
 sudo apt-get install flex
 sudo apt-get install gperf
+
+3.) Downloaded  the file future-0.15.2.tar.gz
+tar xvfz future-0.15.2.tar.gz
+cd future-0.15.2
+
+4.) sudo python setup.py install
+
