@@ -1,0 +1,33 @@
+wget https://raw.githubusercontent.com/raspberrypi/linux/rpi-3.10.y/Documentation/spi/spidev_test.c
+
+gcc -o spidev_test spidev_test.c
+
+xsload --usb 0 --fpga ~/xula2_jum_spi.bit
+
+./spidev_test -D /dev/spidev0.0
+spi mode: 0
+bits per word: 8
+max speed: 500000 Hz (500 KHz)
+
+FF FF FF FF FF FF
+40 00 00 00 00 95
+FF FF FF FF FF FF
+FF FF FF FF FF FF
+FF FF FF FF FF FF
+DE AD BE EF BA AD
+F0 0D
+
+./spidev_test --help
+./spidev_test: unrecognized option '--help'
+Usage: ./spidev_test [-DsbdlHOLC3]
+  -D --device   device to use (default /dev/spidev1.1)
+  -s --speed    max speed (Hz)
+  -d --delay    delay (usec)
+  -b --bpw      bits per word 
+  -l --loop     loopback
+  -H --cpha     clock phase
+  -O --cpol     clock polarity
+  -L --lsb      least significant bit first
+  -C --cs-high  chip select active high
+  -3 --3wire    SI/SO signals shared
+
