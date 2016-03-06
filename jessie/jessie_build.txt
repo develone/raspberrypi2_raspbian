@@ -740,6 +740,16 @@ Reading state information... Done
 The following NEW packages will be installed:
   hexedit
 
+sudo apt-get install ncurses-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Note, selecting 'libncurses5-dev' instead of 'ncurses-dev'
+Suggested packages:
+  ncurses-doc
+The following NEW packages will be installed:
+  libncurses5-dev
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -781,4 +791,4 @@ cd future-0.15.2
 
 sudo apt-get install libusb-1.0-0-dev
 sudo apt-get install hexedit
-
+sudo apt-get install ncurses-dev

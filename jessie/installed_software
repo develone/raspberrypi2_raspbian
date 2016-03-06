@@ -776,6 +776,7 @@ libmysqlclient18:armhf				install
 libmythes-1.2-0					install
 libnautilus-extension1a				install
 libncurses5:armhf				install
+libncurses5-dev:armhf				install
 libncursesw5:armhf				install
 libneon27-gnutls				install
 libnepomuk4					install
