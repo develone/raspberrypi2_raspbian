@@ -227,6 +227,7 @@ gvfs-libs:armhf					install
 gzip						install
 hardlink					install
 hdparm						install
+hexedit						install
 hicolor-icon-theme				install
 hostname					install
 iceweasel					install
@@ -1070,6 +1071,8 @@ liburi-perl					install
 libusageenvironment1				install
 libusb-0.1-4:armhf				install
 libusb-1.0-0:armhf				install
+libusb-1.0-0-dev:armhf				install
+libusb-1.0-doc					install
 libusb-dev					install
 libusbmuxd2:armhf				install
 libustr-1.0-1:armhf				install

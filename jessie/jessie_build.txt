@@ -720,6 +720,26 @@ Do you want to continue? [Y/n]
 
 sudo apt-get install gperf
 
+sudo apt-get install libusb-1.0-0-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libusb-1.0-doc
+The following NEW packages will be installed:
+  libusb-1.0-0-dev libusb-1.0-doc
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 177 kB of archives.
+After this operation, 1,388 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+sudo apt-get install hexedit
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  hexedit
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -758,4 +778,7 @@ tar xvfz future-0.15.2.tar.gz
 cd future-0.15.2
 
 4.) sudo python setup.py install
+
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install hexedit
 
