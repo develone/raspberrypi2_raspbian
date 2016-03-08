@@ -750,6 +750,88 @@ Suggested packages:
 The following NEW packages will be installed:
   libncurses5-dev
 
+
+sudo apt-get install texlive-full
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  chktex cm-super cm-super-minimal context context-modules dvidvi dvipng
+  feynmf fonts-cabin fonts-comfortaa fonts-crosextra-caladea
+  fonts-crosextra-carlito fonts-ebgaramond fonts-ebgaramond-extra
+  fonts-font-awesome fonts-freefont-otf fonts-gfs-artemisia
+  fonts-gfs-baskerville fonts-gfs-bodoni-classic fonts-gfs-complutum
+  fonts-gfs-didot fonts-gfs-didot-classic fonts-gfs-gazis
+  fonts-gfs-neohellenic fonts-gfs-olga fonts-gfs-porson fonts-gfs-solomos
+  fonts-gfs-theokritos fonts-hosny-amiri fonts-inconsolata
+  fonts-ipaexfont-gothic fonts-ipaexfont-mincho fonts-ipafont-gothic
+  fonts-ipafont-mincho fonts-junicode fonts-lato fonts-linuxlibertine
+  fonts-lobster fonts-lobstertwo fonts-oflb-asana-math fonts-sil-gentium
+  fonts-stix fragmaster lacheck latex-cjk-all latex-cjk-chinese
+  latex-cjk-chinese-arphic-bkai00mp latex-cjk-chinese-arphic-bsmi00lp
+  latex-cjk-chinese-arphic-gbsn00lp latex-cjk-chinese-arphic-gkai00mp
+  latex-cjk-common latex-cjk-japanese latex-cjk-japanese-wadalab
+  latex-cjk-korean latex-cjk-thai latexdiff latexmk lcdf-typetools m-tx
+  musixtex pfb2t1c2pfb pmx psutils purifyeps swath t1utils tex4ht
+  tex4ht-common texlive-bibtex-extra texlive-fonts-extra
+  texlive-fonts-extra-doc texlive-formats-extra texlive-games
+  texlive-generic-extra texlive-humanities texlive-humanities-doc
+  texlive-lang-african texlive-lang-arabic texlive-lang-chinese
+  texlive-lang-cjk texlive-lang-cyrillic texlive-lang-czechslovak
+  texlive-lang-english texlive-lang-european texlive-lang-french
+  texlive-lang-german texlive-lang-greek texlive-lang-indic
+  texlive-lang-italian texlive-lang-japanese texlive-lang-korean
+  texlive-lang-other texlive-lang-polish texlive-lang-portuguese
+  texlive-lang-spanish texlive-luatex texlive-math-extra texlive-metapost
+  texlive-metapost-doc texlive-music texlive-omega texlive-plain-extra
+  texlive-publishers texlive-publishers-doc texlive-science
+  texlive-science-doc texlive-xetex ttf-adf-accanthis ttf-adf-gillius
+  ttf-adf-universalis zip
+Suggested packages:
+  perl-tk fontforge context-nonfree context-doc-nonfree auctex hbf-cns40-b5
+  hbf-jfs56 fonts-arphic-bkai00mp fonts-arphic-bsmi00lp fonts-arphic-gbsn00lp
+  fonts-arphic-gkai00mp hbf-kanji48 subversion cvs rcs imagemagick netpbm
+  openjdk-6-jre-headless java5-runtime-headless jadetex passivetex xindy
+  xmltex latex-fonts-sipa-arundina
+Recommended packages:
+  fonts-freefont musixlyr
+The following NEW packages will be installed:
+  chktex cm-super cm-super-minimal context context-modules dvidvi dvipng
+  feynmf fonts-cabin fonts-comfortaa fonts-crosextra-caladea
+  fonts-crosextra-carlito fonts-ebgaramond fonts-ebgaramond-extra
+  fonts-font-awesome fonts-freefont-otf fonts-gfs-artemisia
+  fonts-gfs-baskerville fonts-gfs-bodoni-classic fonts-gfs-complutum
+  fonts-gfs-didot fonts-gfs-didot-classic fonts-gfs-gazis
+  fonts-gfs-neohellenic fonts-gfs-olga fonts-gfs-porson fonts-gfs-solomos
+  fonts-gfs-theokritos fonts-hosny-amiri fonts-inconsolata
+  fonts-ipaexfont-gothic fonts-ipaexfont-mincho fonts-ipafont-gothic
+  fonts-ipafont-mincho fonts-junicode fonts-lato fonts-linuxlibertine
+  fonts-lobster fonts-lobstertwo fonts-oflb-asana-math fonts-sil-gentium
+  fonts-stix fragmaster lacheck latex-cjk-all latex-cjk-chinese
+  latex-cjk-chinese-arphic-bkai00mp latex-cjk-chinese-arphic-bsmi00lp
+  latex-cjk-chinese-arphic-gbsn00lp latex-cjk-chinese-arphic-gkai00mp
+  latex-cjk-common latex-cjk-japanese latex-cjk-japanese-wadalab
+  latex-cjk-korean latex-cjk-thai latexdiff latexmk lcdf-typetools m-tx
+  musixtex pfb2t1c2pfb pmx psutils purifyeps swath t1utils tex4ht
+  tex4ht-common texlive-bibtex-extra texlive-fonts-extra
+  texlive-fonts-extra-doc texlive-formats-extra texlive-full texlive-games
+  texlive-generic-extra texlive-humanities texlive-humanities-doc
+  texlive-lang-african texlive-lang-arabic texlive-lang-chinese
+  texlive-lang-cjk texlive-lang-cyrillic texlive-lang-czechslovak
+  texlive-lang-english texlive-lang-european texlive-lang-french
+  texlive-lang-german texlive-lang-greek texlive-lang-indic
+  texlive-lang-italian texlive-lang-japanese texlive-lang-korean
+  texlive-lang-other texlive-lang-polish texlive-lang-portuguese
+  texlive-lang-spanish texlive-luatex texlive-math-extra texlive-metapost
+  texlive-metapost-doc texlive-music texlive-omega texlive-plain-extra
+  texlive-publishers texlive-publishers-doc texlive-science
+  texlive-science-doc texlive-xetex ttf-adf-accanthis ttf-adf-gillius
+  ttf-adf-universalis zip
+0 upgraded, 112 newly installed, 0 to remove and 12 not upgraded.
+Need to get 1,032 MB of archives.
+After this operation, 2,218 MB of additional disk space will be used.
+Do you want to continue? [Y/n]
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -792,3 +874,5 @@ cd future-0.15.2
 sudo apt-get install libusb-1.0-0-dev
 sudo apt-get install hexedit
 sudo apt-get install ncurses-dev
+sudo apt-get install texlive-full
+
