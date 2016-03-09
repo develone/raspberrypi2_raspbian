@@ -832,6 +832,37 @@ Need to get 1,032 MB of archives.
 After this operation, 2,218 MB of additional disk space will be used.
 Do you want to continue? [Y/n]
 
+sudo apt-get install mpc
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libmpdclient2
+Suggested packages:
+  mpd
+The following NEW packages will be installed:
+  libmpdclient2 mpc
+0 upgraded, 2 newly installed, 0 to remove and 12 not upgraded.
+Need to get 68.7 kB of archives.
+After this operation, 161 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+sudo apt-get remove mpc
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+
+The following package was automatically installed and is no longer required:
+  libmpdclient2
+Use 'apt-get autoremove' to remove it.
+The following packages will be REMOVED:
+  mpc
+0 upgraded, 0 newly installed, 1 to remove and 12 not upgraded.
+After this operation, 71.7 kB disk space will be freed.
+Do you want to continue? [Y/n]
+
+sudo apt-get install libgmp10 libgmp-dev libmpfr-dev libmpc-dev
+
 sudo apt-get install libffi-dev tcl-dev mercurial libreadline-dev squashfs-tools
 sudo apt-get install python-matplotlib
 sudo apt-get install vlc
@@ -871,8 +902,20 @@ cd future-0.15.2
 
 4.) sudo python setup.py install
 
+******************These needed for xulalx25 & zipcpu******************************
 sudo apt-get install libusb-1.0-0-dev
 sudo apt-get install hexedit
 sudo apt-get install ncurses-dev
 sudo apt-get install texlive-full
 
+git clone http://git.veripool.org/git/verilator
+cd verilator
+git pull
+autoconf
+./configure or ./configure --prefix=$HOME
+make 
+make test  All Tests passed
+sudo make install
+sudo apt-get install mpc	sudo apt-get remove mpc
+
+sudo apt-get install libgmp10 libgmp-dev libmpfr-dev libmpc-dev

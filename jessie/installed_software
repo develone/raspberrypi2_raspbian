@@ -610,7 +610,9 @@ libglpk36:armhf					install
 libgltf-0.0-0					install
 libglu1-mesa:armhf				install
 libgme0						install
+libgmp-dev:armhf				install
 libgmp10:armhf					install
+libgmpxx4ldbl:armhf				install
 libgnome-desktop-3-10				install
 libgnome-keyring-common				install
 libgnome-keyring0:armhf				install
@@ -816,11 +818,14 @@ libmotif-common					install
 libmount1:armhf					install
 libmozjs185-1.0					install
 libmp3lame0:armhf				install
+libmpc-dev:armhf				install
 libmpc3:armhf					install
 libmpcdec6:armhf				install
+libmpdclient2					install
 libmpdec2:armhf					install
 libmpeg2-4:armhf				install
 libmpeg2encpp-2.1-0				install
+libmpfr-dev:armhf				install
 libmpfr4:armhf					install
 libmpg123-0:armhf				install
 libmplex2-2.1-0					install
@@ -1349,6 +1354,7 @@ module-init-tools				install
 mount						install
 mountall					install
 mpack						install
+mpc						deinstall
 multiarch-support				install
 musixtex					install
 mysql-common					install
