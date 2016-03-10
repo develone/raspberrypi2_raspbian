@@ -503,6 +503,7 @@ libe-book-0.1-1					install
 libebml4:armhf					install
 libedit2:armhf					install
 libegl1-mesa:armhf				install
+libelf-dev:armhf				install
 libelf1:armhf					install
 libelfg0:armhf					install
 libenca0:armhf					install
