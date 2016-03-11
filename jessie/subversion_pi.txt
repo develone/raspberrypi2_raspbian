@@ -1,0 +1,43 @@
+mkdir -p svn/xulalx25soc
+mkdir -p svn/zipcpu
+
+cd svn/zipcpu/
+
+svn co --username yyyyyy --password xxxxxxxx http://opencores.org/ocsvn/zipcpu/zipcpu/trunk
+
+cd trunk/
+
+pi@raspberrypi2-145 ~/svn/zipcpu/trunk $ svn info
+Path: .
+Working Copy Root Path: /home/pi/svn/zipcpu/trunk
+URL: http://opencores.org/ocsvn/zipcpu/zipcpu/trunk
+Relative URL: ^/zipcpu/trunk
+Repository Root: http://opencores.org/ocsvn/zipcpu
+Repository UUID: 753a1494-afa9-4eb1-9a3f-b6aaa4ffd0d3
+Revision: 105
+Node Kind: directory
+Schedule: normal
+Last Changed Author: dgisselq
+Last Changed Rev: 105
+Last Changed Date: 2016-03-09 15:26:16 +0000 (Wed, 09 Mar 2016)
+
+
+
+cd svn/xulalx25soc/
+
+svn co --username yyyyyy --password xxxxxxxx http://opencores.org/ocsvn/xulalx25soc/xulalx25soc/trunk
+
+cd trunk/
+
+Path: .
+Working Copy Root Path: /home/pi/svn/xulalx25soc/trunk
+URL: http://opencores.org/ocsvn/xulalx25soc/xulalx25soc/trunk
+Relative URL: ^/xulalx25soc/trunk
+Repository Root: http://opencores.org/ocsvn/xulalx25soc
+Repository UUID: 6dd62048-26e6-457e-a111-74efc207c9ac
+Revision: 34
+Node Kind: directory
+Schedule: normal
+Last Changed Author: dgisselq
+Last Changed Rev: 34
+Last Changed Date: 2016-03-11 01:05:38 +0000 (Fri, 11 Mar 2016)

@@ -1050,6 +1050,7 @@ libselinux1:armhf				install
 libsemanage-common				install
 libsemanage1:armhf				install
 libsepol1:armhf					install
+libserf-1-1:armhf				install
 libsgutils2-2					install
 libshine3:armhf					install
 libshout3:armhf					install
@@ -1087,6 +1088,7 @@ libstreamanalyzer0				install
 libstreams0					install
 libsub-exporter-perl				install
 libsub-install-perl				install
+libsvn1:armhf					install
 libswscale-dev					install
 libswscale3:armhf				install
 libsynctex1					install
@@ -1575,6 +1577,7 @@ ssl-cert					install
 ssmtp						install
 startpar					install
 strace						install
+subversion					install
 sudo						install
 supercollider					install
 supercollider-common				install
