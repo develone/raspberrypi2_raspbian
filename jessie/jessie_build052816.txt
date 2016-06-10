@@ -1,0 +1,246 @@
+05/28/16
+
+gzip -dc 2016-05-10-raspbian-jessie.zip | pv | dd bs=16M of=/dev/sdb
+
+passwd
+cp /boot/cmdline.txt /boot/cmdline_backup.txt
+
+cp /boot/config.txt /boot/config_backup.txt
+
+dpkg --get-selections > software.log
+
+git clone https://github.com/jandecaluwe/myhdl.git
+cd myhdl
+sudo python setup.py install
+
+git clone https://github.com/cfelton/rhea.git
+cd rhea
+sudo python setup.py develop
+
+git clone https://github.com/xesscorp/XSTOOLs.git
+cd XSTOOLs/
+sudo python setup.py install
+
+sudo reboot
+vi /etc/hostname
+raspberrypi2-146
+
+git clone https://github.com/develone/jpeg-2000-test.git
+
+sudo apt-get install gtkwave
+cd myhdl
+sudo pypy setup.py install
+
+cd rhea
+sudo pypy setup.py install
+
+sudo apt-get install flex
+sudo apt-get install bison
+sudo apt-get install gperf
+
+iverilog
+cd iverillog
+sudo make install
+
+gsl-1.15
+cd gsl-1.15
+sudo make install
+
+bcm2835-1.45/
+cd bcm2835-1.45/
+sudo make install
+
+sudo apt-get install gitk
+
+verilator
+cd verilator
+sudo make install
+
+sudo apt-get install minicom
+sudo apt-get install gimp
+sudo apt-get install subversion
+******************These needed for xulalx25 & zipcpu******************************
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install hexedit
+sudo apt-get install ncurses-dev
+sudo apt-get install texlive-full
+
+sudo apt-get install libav-tools
+sudo apt-get install apache2
+sudo apt-get install clang
+sudo apt-get install libftdi-dev
+sudo apt-get install gawk
+sudo pip install pytest
+sudo apt-get install python-matplotlib
+sudo apt-get install cmake diffuse
+sudo apt-get install vlc
+sudo apt-get install tcl-dev python3 libffi-dev libreadline-dev
+sudo apt-get install mercurial
+cd icestorm/
+make
+sudo make install
+cd ../arachne-pnr/
+make
+sudo make install
+cd ../yosys
+make config-gcc
+make
+sudo make install
+
+Adding reading of png C support
+sudo apt-get install ivtools-dev
+sudo apt-get install libx11-dev
+sudo apt-get install libgmp10 libgmp-dev libmpfr-dev libmpc-dev
+sudo apt-get install libelf-dev
+pi@raspberrypi2-146:~/svn/uart_rpi_xulalx25soc/xulalx25soc/trunk $ svn info
+Path: .
+Working Copy Root Path: /home/pi/svn/uart_rpi_xulalx25soc/xulalx25soc/trunk
+URL: http://opencores.org/ocsvn/xulalx25soc/xulalx25soc/trunk
+Relative URL: ^/xulalx25soc/trunk
+Repository Root: http://opencores.org/ocsvn/xulalx25soc
+Repository UUID: 6dd62048-26e6-457e-a111-74efc207c9ac
+Revision: 83
+Node Kind: directory
+Schedule: normal
+Last Changed Author: dgisselq
+Last Changed Rev: 83
+Last Changed Date: 2016-06-09 21:04:41 +0000 (Thu, 09 Jun 2016)
+ 
+pi@raspberrypi2-146:~/svn/uart_rpi_xulalx25soc/zipcpu/trunk $ svn infoPath: .
+Working Copy Root Path: /home/pi/svn/uart_rpi_xulalx25soc/zipcpu/trunk
+URL: http://opencores.org/ocsvn/zipcpu/zipcpu/trunk
+Relative URL: ^/zipcpu/trunk
+Repository Root: http://opencores.org/ocsvn/zipcpu
+Repository UUID: 753a1494-afa9-4eb1-9a3f-b6aaa4ffd0d3
+Revision: 152
+Node Kind: directory
+Schedule: normal
+Last Changed Author: dgisselq
+Last Changed Rev: 152
+Last Changed Date: 2016-05-13 02:05:54 +0000 (Fri, 13 May 2016)
+
+
+pi@raspberrypi2-146:~ $ xsload --usb 0 --fpga ~/toplevel.bit 
+
+pi@raspberrypi2-146:~ $ . setzipcpuPath.sh 
+PATH,/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/home/pi/zipcpu/trunk/sw/install/cross-tools/bin:/home/pi/xulalx25soc/trunk/sw
+pi@raspberrypi2-146:~ $ wbregs version
+00000101 ( VERSION) : [....] 20160609
+
+pi@raspberrypi2-146:~ $ 
+
+pi@raspberrypi2-146:~/jpeg-2000-test/zipcpu/test_code $ make
+zip-gcc -O3 -Wall -Wextra -nostdlib -fno-builtin -c dwt_steps.c -o obj-zip/dwt_steps.o
+dwt_steps.c: In function 'entry':
+dwt_steps.c:56:14: warning: variable 'dum1' set but not used [-Wunused-but-set-variable]
+  int col,row,dum1,dum2,dum3,dum4,dum5,dum6,*dum7;
+              ^
+zip-gcc -O3 -Wall -Wextra -nostdlib -fno-builtin -c dwt_write.c -o obj-zip/dwt_write.o
+zip-gcc -T xula.ld -Wl,-Map,obj-zip/dwt_steps.map obj-zip/dwt_steps.o obj-zip/dwt_write.o -o dwt_steps
+pi@raspberrypi2-146:~/jpeg-2000-test/zipcpu/test_code $ zip-objdump -d dwt_steps 
+dwt_steps:     file format elf32-zip
+
+
+Disassembly of section .rocode:
+
+00002000 <_start>:
+    2000:	6b 00 00 00 	LDI        0x00003fff,SP	// 3fff <_top_of_stack>
+    2001:	6a 40 3f ff 
+    2002:	7c 87 c0 00 	LJMP       @0x00002004	// 2004 <entry>
+    2003:	00 00 20 04 
+
+00002004 <entry>:
+    2004:	68 00 00 07 	SUB        $7,SP
+    2005:	04 c7 40 00 	STO        R0,(SP)
+    2006:	2c c7 40 01 	STO        R5,$1(SP)
+    2007:	34 c7 40 02 	STO        R6,$2(SP)
+    2008:	3c c7 40 03 	STO        R7,$3(SP)
+    2009:	44 c7 40 04 	STO        R8,$4(SP)
+    200a:	4c c7 40 05 	STO        R9,$5(SP)
+    200b:	54 c7 40 06 	STO        R10,$6(SP)
+    200c:	0d 80 20 8d 	LDI        $8333,R1
+    200d:	0c c0 01 06 	STO        R1,($262)
+    200e:	35 80 00 00 	CLR        R6
+    200f:	4b 00 01 00 	LDI        0x00800100,R9	// 800100 <_top_of_stack+0x7fc101>
+    2010:	4a 40 01 00 
+    2011:	53 c2 5f 00 	MOV        $-256+R9,R10
+    2012:	78 80 00 27 	BRA        @0x0000203a	// 203a <entry+0x36>
+    2013:	0c 85 40 00 	LOD        (R5),R1
+    2014:	14 85 42 00 	LOD        512(R5),R2
+    2015:	08 84 80 00 	ADD        R2,R1
+    2016:	09 c0 00 01 	ASR        $1,R1
+    2017:	14 85 41 00 	LOD        256(R5),R2
+    2018:	10 04 40 00 	SUB        R1,R2
+    2019:	23 c0 80 00 	MOV        R2,R4
+    201a:	1b c1 c0 00 	MOV        R7,R3
+    201b:	13 c1 80 00 	MOV        R6,R2
+    201c:	0b 00 01 00 	BREV       $256,R1
+    201d:	03 c3 c0 02 	MOV        $2+PC,R0
+    201e:	7c 87 c0 00 	LJMP       @0x00002055	// 2055 <dwt_write>
+    201f:	00 00 20 55 
+    2020:	38 80 00 02 	ADD        $2,R7
+    2021:	28 80 02 00 	ADD        $512,R5
+    2022:	3c 00 01 00 	CMP        $256,R7
+    2023:	78 9b ff ef 	BNZ        @0x00002013	// 2013 <entry+0xf>
+    2024:	2b c1 80 00 	MOV        R6,R5
+    2025:	28 86 80 00 	ADD        R10,R5
+    2026:	3d 80 00 01 	LDI        $1,R7
+    2027:	24 85 40 00 	LOD        (R5),R4
+    2028:	0c 85 42 00 	LOD        512(R5),R1
+    2029:	20 84 40 00 	ADD        R1,R4
+    202a:	21 c0 00 02 	ASR        $2,R4
+    202b:	0c 85 41 00 	LOD        256(R5),R1
+    202c:	20 84 40 00 	ADD        R1,R4
+    202d:	1b c1 c0 00 	MOV        R7,R3
+    202e:	13 c1 80 00 	MOV        R6,R2
+    202f:	0b 00 01 00 	BREV       $256,R1
+    2030:	03 c3 c0 02 	MOV        $2+PC,R0
+    2031:	7c 87 c0 00 	LJMP       @0x00002055	// 2055 <dwt_write>
+    2032:	00 00 20 55 
+    2033:	38 80 00 02 	ADD        $2,R7
+    2034:	28 80 02 00 	ADD        $512,R5
+    2035:	3c 00 00 ff 	CMP        $255,R7
+    2036:	78 9b ff f0 	BNZ        @0x00002027	// 2027 <entry+0x23>
+    2037:	30 80 00 01 	ADD        $1,R6
+    2038:	34 00 01 00 	CMP        $256,R6
+    2039:	78 90 00 04 	BZ         @0x0000203e	// 203e <entry+0x3a>
+    203a:	2b c1 80 00 	MOV        R6,R5
+    203b:	28 86 40 00 	ADD        R9,R5
+    203c:	3d 80 00 02 	LDI        $2,R7
+    203d:	78 83 ff d5 	BRA        @0x00002013	// 2013 <entry+0xf>
+    203e:	0b 00 00 00 	LDI        0x0000205a,R1	// 205a <msg>
+    203f:	0a 40 20 5a 
+    2040:	24 84 40 00 	LOD        (R1),R4
+    2041:	1b c1 00 00 	MOV        R4,R3
+    2042:	13 00 00 00 	LDI        0x0000205a,R2	// 205a <msg>
+    2043:	12 40 20 5a 
+    2044:	24 00 00 00 	CMP        $0,R4
+    2045:	78 98 00 02 	BNZ        @0x00002048	// 2048 <entry+0x44>
+    2046:	14 80 01 0f 	LOD        ($271),R2
+    2047:	78 80 00 09 	BRA        @0x00002051	// 2051 <entry+0x4d>
+    2048:	0c 80 01 0a 	LOD        ($266),R1
+    2049:	0c 00 00 00 	CMP        $0,R1
+    204a:	78 9b ff fd 	BNZ        @0x00002048	// 2048 <entry+0x44>
+    204b:	10 80 00 01 	ADD        $1,R2
+    204c:	1c c0 01 0a 	STO        R3,($266)
+    204d:	1c 84 80 00 	LOD        (R2),R3
+    204e:	1c 00 00 00 	CMP        $0,R3
+    204f:	78 9b ff f8 	BNZ        @0x00002048	// 2048 <entry+0x44>
+    2050:	78 83 ff f5 	BRA        @0x00002046	// 2046 <entry+0x42>
+    2051:	0c 80 01 0f 	LOD        ($271),R1
+    2052:	14 04 40 00 	CMP        R1,R2
+    2053:	78 93 ff fd 	BZ         @0x00002051	// 2051 <entry+0x4d>
+    2054:	78 83 ff ec 	BRA        @0x00002041	// 2041 <entry+0x3d>
+
+00002055 <dwt_write>:
+    2055:	19 80 00 08 	LSL        $8,R3
+    2056:	08 84 c0 00 	ADD        R3,R1
+    2057:	08 84 80 00 	ADD        R2,R1
+    2058:	24 c4 40 00 	STO        R4,(R1)
+    2059:	7b c0 00 00 	JMP        R0
+
+0000205a <msg>:
+    205a:	00 00 00 48 00 00 00 65 00 00 00 6c 00 00 00 6c     ...H...e...l...l
+    205e:	00 00 00 6f 00 00 00 2c 00 00 00 20 00 00 00 77     ...o...,... ...w
+    2062:	00 00 00 6f 00 00 00 72 00 00 00 6c 00 00 00 64     ...o...r...l...d
+    2066:	00 00 00 21 00 00 00 0a 00 00 00 00                 ...!........
