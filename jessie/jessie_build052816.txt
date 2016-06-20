@@ -244,3 +244,7 @@ Disassembly of section .rocode:
     205e:	00 00 00 6f 00 00 00 2c 00 00 00 20 00 00 00 77     ...o...,... ...w
     2062:	00 00 00 6f 00 00 00 72 00 00 00 6c 00 00 00 64     ...o...r...l...d
     2066:	00 00 00 21 00 00 00 0a 00 00 00 00                 ...!........
+sudo apt-get update
+sudo apt-get install octave
+sudo apt-get install evince
+sudo apt-get install iceweasel
