@@ -946,4 +946,8 @@ sudo apt-get update
 sudo apt-get install subversion
 
 sudo pip install pytest
-
+Needed to install wireshark to test Ethernet on Arty.
+sudo apt-get update
+sudo apt-get install wireshark
+sudo chmod +s /usr/bin/dumpcap  
+-rwsr-sr-- 1 root wireshark 75368 Sep 21 01:29 /usr/bin/dumpcap
