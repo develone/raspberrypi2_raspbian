@@ -951,3 +951,6 @@ sudo apt-get update
 sudo apt-get install wireshark
 sudo chmod +s /usr/bin/dumpcap  
 -rwsr-sr-- 1 root wireshark 75368 Sep 21 01:29 /usr/bin/dumpcap
+sudo apt-get install xdot
+sudo apt-get install gforth
+sudo apt-get install libgtkmm-3.0-dev
