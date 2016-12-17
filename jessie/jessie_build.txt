@@ -954,3 +954,6 @@ sudo chmod +s /usr/bin/dumpcap
 sudo apt-get install xdot
 sudo apt-get install gforth
 sudo apt-get install libgtkmm-3.0-dev
+
+sudo apt-get install fpc lazarus
+suso apt-get espeak python-espeak
