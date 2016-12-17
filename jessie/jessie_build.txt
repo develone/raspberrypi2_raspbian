@@ -956,4 +956,5 @@ sudo apt-get install gforth
 sudo apt-get install libgtkmm-3.0-dev
 
 sudo apt-get install fpc lazarus
-suso apt-get espeak python-espeak
+sudo apt-get install espeak python-espeak
+sudo apt-get install xchat ircd-irc2
