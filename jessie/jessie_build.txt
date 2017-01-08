@@ -958,3 +958,7 @@ sudo apt-get install libgtkmm-3.0-dev
 sudo apt-get install fpc lazarus
 sudo apt-get install espeak python-espeak
 sudo apt-get install xchat ircd-irc2
+
+packages for ultibo
+sudo apt-get install libghc-x11-dev
+sudo apt-get install binutils-arm-none-eabi gcc-arm-none-eabi
